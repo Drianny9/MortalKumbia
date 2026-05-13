@@ -2,15 +2,31 @@ using UnityEngine;
 
 public class GestorCombate : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public enum EstadoJuego { TURNO_P1, TURNO_P2}
+    public EstadoJuego estadoActual;
+
+    public Health saludP1;
+    public Health saludP2;
     void Start()
     {
-        
+        estadoActual = EstadoJuego.TURNO_P1;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if(Input.GetKeyDown(KeyCode.Space)){
+            EjecutarTurno();
+        }
+    }
+
+    void EjecutarTurno(){
+        if(estadoActual == EstadoJuego.TURNO_P1){
+            saludP2.RecibirDaño(2f);
+            estadoActual = EstadoJuego.TURNO_P2;
+        }else if{
+            saludP1.RecibirDaño(2f);
+            estadoActual = EstadoJuego.TURNO_P1;
+        }
     }
 }
