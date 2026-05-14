@@ -24,7 +24,7 @@ public class GestorCombate : MonoBehaviour
         if(estadoActual == EstadoJuego.TURNO_P1){
             saludP2.RecibirDaño(2f);
             estadoActual = EstadoJuego.TURNO_P2;
-        }else if{
+        }else{
             saludP1.RecibirDaño(2f);
             estadoActual = EstadoJuego.TURNO_P1;
         }
