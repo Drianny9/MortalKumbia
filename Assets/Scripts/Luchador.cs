@@ -19,3 +19,4 @@ public class Luchador : MonoBehaviour
     void Derrota(){
         Debug.Log(gameObject.name+" ha perdido.");
     }
+}

@@ -5,8 +5,8 @@ public class GestorCombate : MonoBehaviour
     public enum EstadoJuego { TURNO_P1, TURNO_P2}
     public EstadoJuego estadoActual;
 
-    public Health saludP1;
-    public Health saludP2;
+    public Luchador saludP1;
+    public Luchador saludP2;
     void Start()
     {
         estadoActual = EstadoJuego.TURNO_P1;
