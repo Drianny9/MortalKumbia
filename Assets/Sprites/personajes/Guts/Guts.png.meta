@@ -1,0 +1,1196 @@
+fileFormatVersion: 2
+guid: e2464389994be3b4bbc77d889d037550
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4826067939210111087
+    second: Guts_0
+  - first:
+      213: 4936058127540829753
+    second: Guts_1
+  - first:
+      213: 7264543741416012267
+    second: Guts_2
+  - first:
+      213: 1536712955460577005
+    second: Guts_3
+  - first:
+      213: -4627715431376371340
+    second: Guts_4
+  - first:
+      213: 6183627551097484824
+    second: Guts_5
+  - first:
+      213: 5104521827820018834
+    second: Guts_6
+  - first:
+      213: 4007050443053503324
+    second: Guts_7
+  - first:
+      213: 2398659452441339541
+    second: Guts_8
+  - first:
+      213: -4573744818066693898
+    second: Guts_9
+  - first:
+      213: -8097144712517959656
+    second: Guts_10
+  - first:
+      213: 8058051734659992313
+    second: Guts_11
+  - first:
+      213: -1864290597663214896
+    second: Guts_12
+  - first:
+      213: -5498256510937920239
+    second: Guts_13
+  - first:
+      213: -714536277510372939
+    second: Guts_14
+  - first:
+      213: -7564210146228224634
+    second: Guts_15
+  - first:
+      213: -1283624438296898299
+    second: Guts_16
+  - first:
+      213: -1880764151490200509
+    second: Guts_17
+  - first:
+      213: -4550154835748441889
+    second: Guts_18
+  - first:
+      213: 5973616002606519034
+    second: Guts_19
+  - first:
+      213: -449950303993727736
+    second: Guts_20
+  - first:
+      213: -1103611774226190233
+    second: Guts_21
+  - first:
+      213: 3102414265997340205
+    second: Guts_22
+  - first:
+      213: -3014376908979998085
+    second: Guts_23
+  - first:
+      213: 230897004311841392
+    second: Guts_24
+  - first:
+      213: -2743767213244525289
+    second: Guts_25
+  - first:
+      213: -219159728977728930
+    second: Guts_26
+  - first:
+      213: 4311634120552133613
+    second: Guts_27
+  - first:
+      213: -6965926967490077396
+    second: Guts_28
+  - first:
+      213: -243140007316693089
+    second: Guts_29
+  - first:
+      213: 3743109882179271783
+    second: Guts_30
+  - first:
+      213: -3508802111592235364
+    second: Guts_31
+  - first:
+      213: -8162733085613752769
+    second: Guts_32
+  - first:
+      213: -3153346548771647950
+    second: Guts_33
+  - first:
+      213: -8749985347824174307
+    second: Guts_34
+  - first:
+      213: 2637244145204982461
+    second: Guts_35
+  - first:
+      213: 2723798283725979387
+    second: Guts_36
+  - first:
+      213: -4170766303243838276
+    second: Guts_37
+  - first:
+      213: -3801116882464056916
+    second: Guts_38
+  - first:
+      213: 8415347826959430633
+    second: Guts_39
+  - first:
+      213: 8863523369881876570
+    second: Guts_40
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Guts_0
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1017
+        width: 154
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f68258a9833a9f240800000000000000
+      internalID: 4826067939210111087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guts_1
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 1017
+        width: 151
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93e30c2f6b6608440800000000000000
+      internalID: 4936058127540829753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guts_2
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 1017
+        width: 158
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be9736a2b08d0d460800000000000000
+      internalID: 7264543741416012267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guts_3
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 1017
+        width: 154
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de6e7f78a40835510800000000000000
+      internalID: 1536712955460577005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guts_4
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 1017
+        width: 159
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 471c737755d07cfb0800000000000000
+      internalID: -4627715431376371340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guts_5
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 774
+        width: 168
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 816fb76de78a0d550800000000000000
+      internalID: 6183627551097484824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guts_6
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 778
+        width: 153
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29c9077be87e6d640800000000000000
+      internalID: 5104521827820018834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guts_7
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 776
+        width: 204
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c53964fc527eb9730800000000000000
+      internalID: 4007050443053503324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guts_8
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 775
+        width: 184
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59626e73010c94120800000000000000
+      internalID: 2398659452441339541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guts_9
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 772
+        width: 205
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f0e9d9125bc680c0800000000000000
+      internalID: -4573744818066693898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guts_10
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 890
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8104f63d8c921af80800000000000000
+      internalID: -8097144712517959656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guts_11
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 895
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fa012afb53f3df60800000000000000
+      internalID: 8058051734659992313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guts_12
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 867
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d2fe203495b026e0800000000000000
+      internalID: -1864290597663214896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guts_13
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 821
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11d019595d442b3b0800000000000000
+      internalID: -5498256510937920239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guts_14
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 833
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b14dd79a057516f0800000000000000
+      internalID: -714536277510372939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guts_15
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 795
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68d39abe2f6860790800000000000000
+      internalID: -7564210146228224634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guts_16
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 522
+        width: 138
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5059d42df56af2ee0800000000000000
+      internalID: -1283624438296898299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guts_17
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 521
+        width: 174
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34c332c08fe26e5e0800000000000000
+      internalID: -1880764151490200509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guts_18
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 520
+        width: 189
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd0303ed84a9ad0c0800000000000000
+      internalID: -4550154835748441889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guts_19
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 652
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af253f3da1c86e250800000000000000
+      internalID: 5973616002606519034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guts_20
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 568
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 805ffdb159471c9f0800000000000000
+      internalID: -449950303993727736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guts_21
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 516
+        width: 194
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7603f4340fe2fa0f0800000000000000
+      internalID: -1103611774226190233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guts_22
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 513
+        width: 147
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2e20ee665dfd0b20800000000000000
+      internalID: 3102414265997340205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guts_23
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 547
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b727b111c28ca26d0800000000000000
+      internalID: -3014376908979998085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guts_24
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 536
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07a85b12a9f443300800000000000000
+      internalID: 230897004311841392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guts_25
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 527
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7155234b14e2ce9d0800000000000000
+      internalID: -2743767213244525289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guts_26
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 300
+        width: 109
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5a263d336365fcf0800000000000000
+      internalID: -219159728977728930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guts_27
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 299
+        width: 144
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de3b6fc736006db30800000000000000
+      internalID: 4311634120552133613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guts_28
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 299
+        width: 115
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2d9073845e045f90800000000000000
+      internalID: -6965926967490077396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guts_29
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 299
+        width: 131
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9fd339937130acf0800000000000000
+      internalID: -243140007316693089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guts_30
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 396
+        width: 21
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76cbc822b9232f330800000000000000
+      internalID: 3743109882179271783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guts_31
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 389
+        width: 36
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9e7767e11b3e4fc0800000000000000
+      internalID: -3508802111592235364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guts_32
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 300
+        width: 111
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3ef9a3b18528be80800000000000000
+      internalID: -8162733085613752769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guts_33
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 356
+        width: 38
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23e03c265001d34d0800000000000000
+      internalID: -3153346548771647950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guts_34
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 345
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1b31118faec19680800000000000000
+      internalID: -8749985347824174307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guts_35
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 84
+        width: 146
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db2fbecc39f599420800000000000000
+      internalID: 2637244145204982461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guts_36
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 87
+        width: 144
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfe3e459b10ecc520800000000000000
+      internalID: 2723798283725979387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guts_37
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 81
+        width: 183
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbc5bf515267e16c0800000000000000
+      internalID: -4170766303243838276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guts_38
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 76
+        width: 197
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca95df6a558bf3bc0800000000000000
+      internalID: -3801116882464056916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guts_39
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 140
+        width: 12
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e3b54f134259c470800000000000000
+      internalID: 8415347826959430633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guts_40
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 79
+        width: 175
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a58be204b8f810b70800000000000000
+      internalID: 8863523369881876570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Guts_0: 4826067939210111087
+      Guts_1: 4936058127540829753
+      Guts_10: -8097144712517959656
+      Guts_11: 8058051734659992313
+      Guts_12: -1864290597663214896
+      Guts_13: -5498256510937920239
+      Guts_14: -714536277510372939
+      Guts_15: -7564210146228224634
+      Guts_16: -1283624438296898299
+      Guts_17: -1880764151490200509
+      Guts_18: -4550154835748441889
+      Guts_19: 5973616002606519034
+      Guts_2: 7264543741416012267
+      Guts_20: -449950303993727736
+      Guts_21: -1103611774226190233
+      Guts_22: 3102414265997340205
+      Guts_23: -3014376908979998085
+      Guts_24: 230897004311841392
+      Guts_25: -2743767213244525289
+      Guts_26: -219159728977728930
+      Guts_27: 4311634120552133613
+      Guts_28: -6965926967490077396
+      Guts_29: -243140007316693089
+      Guts_3: 1536712955460577005
+      Guts_30: 3743109882179271783
+      Guts_31: -3508802111592235364
+      Guts_32: -8162733085613752769
+      Guts_33: -3153346548771647950
+      Guts_34: -8749985347824174307
+      Guts_35: 2637244145204982461
+      Guts_36: 2723798283725979387
+      Guts_37: -4170766303243838276
+      Guts_38: -3801116882464056916
+      Guts_39: 8415347826959430633
+      Guts_4: -4627715431376371340
+      Guts_40: 8863523369881876570
+      Guts_5: 6183627551097484824
+      Guts_6: 5104521827820018834
+      Guts_7: 4007050443053503324
+      Guts_8: 2398659452441339541
+      Guts_9: -4573744818066693898
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

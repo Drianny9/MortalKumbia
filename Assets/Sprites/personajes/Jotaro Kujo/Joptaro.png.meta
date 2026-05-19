@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: 003534bc9af557c4c86a7dd59dd3fde2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 73182231649188800
+    second: Joptaro_0
+  - first:
+      213: -8543107032002522008
+    second: Joptaro_1
+  - first:
+      213: 8706987922458130637
+    second: Joptaro_2
+  - first:
+      213: 3418752890500722878
+    second: Joptaro_3
+  - first:
+      213: -1778631460972972256
+    second: Joptaro_4
+  - first:
+      213: -3231824587995275132
+    second: Joptaro_5
+  - first:
+      213: -1805688846273107980
+    second: Joptaro_6
+  - first:
+      213: -65293608328999071
+    second: Joptaro_7
+  - first:
+      213: 677072701024376182
+    second: Joptaro_8
+  - first:
+      213: 1965185305725301839
+    second: Joptaro_9
+  - first:
+      213: -6248872069556186092
+    second: Joptaro_10
+  - first:
+      213: -984661727984906856
+    second: Joptaro_11
+  - first:
+      213: 8899989396545790806
+    second: Joptaro_12
+  - first:
+      213: -8996624862708675730
+    second: Joptaro_13
+  - first:
+      213: 8883738036595639492
+    second: Joptaro_14
+  - first:
+      213: -5749575354105157390
+    second: Joptaro_15
+  - first:
+      213: 4402448010726007686
+    second: Joptaro_16
+  - first:
+      213: -8669778406399501781
+    second: Joptaro_17
+  - first:
+      213: -177615691741832295
+    second: Joptaro_18
+  - first:
+      213: 4091901253428038245
+    second: Joptaro_19
+  - first:
+      213: 753575002127862226
+    second: Joptaro_20
+  - first:
+      213: -1580489815508274278
+    second: Joptaro_21
+  - first:
+      213: -8878461399679908187
+    second: Joptaro_22
+  - first:
+      213: -8349335610717614410
+    second: Joptaro_23
+  - first:
+      213: 6017048773369999239
+    second: Joptaro_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Joptaro_0
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1007
+        width: 91
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cbf1591adef30100800000000000000
+      internalID: 73182231649188800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joptaro_1
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1007
+        width: 92
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 864195fea69c07980800000000000000
+      internalID: -8543107032002522008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joptaro_2
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 1007
+        width: 109
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc8bbb5426f65d870800000000000000
+      internalID: 8706987922458130637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joptaro_3
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 1007
+        width: 109
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb0b22df3a9d17f20800000000000000
+      internalID: 3418752890500722878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joptaro_4
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 1007
+        width: 103
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0273f5e1c180157e0800000000000000
+      internalID: -1778631460972972256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joptaro_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 765
+        width: 118
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4802b2009a04623d0800000000000000
+      internalID: -3231824587995275132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joptaro_6
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 762
+        width: 116
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f7a10faf87e0f6e0800000000000000
+      internalID: -1805688846273107980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joptaro_7
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 760
+        width: 161
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16f42752fc7081ff0800000000000000
+      internalID: -65293608328999071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joptaro_8
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 760
+        width: 165
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6751ca7c802756900800000000000000
+      internalID: 677072701024376182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joptaro_9
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 760
+        width: 115
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f44f291af9db54b10800000000000000
+      internalID: 1965185305725301839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joptaro_10
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 509
+        width: 157
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4145e3fe5fb8749a0800000000000000
+      internalID: -6248872069556186092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joptaro_11
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 513
+        width: 168
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89d89871067c552f0800000000000000
+      internalID: -984661727984906856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joptaro_12
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 511
+        width: 164
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 653ead5b33d138b70800000000000000
+      internalID: 8899989396545790806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joptaro_13
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 511
+        width: 226
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6b4dc08a51952380800000000000000
+      internalID: -8996624862708675730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joptaro_14
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 512
+        width: 131
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c4c8ec1da0694b70800000000000000
+      internalID: 8883738036595639492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joptaro_15
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 287
+        width: 96
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f8a8319da76530b0800000000000000
+      internalID: -5749575354105157390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joptaro_16
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 287
+        width: 96
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 683e27df323a81d30800000000000000
+      internalID: 4402448010726007686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joptaro_17
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 286
+        width: 130
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2a943d4972cea780800000000000000
+      internalID: -8669778406399501781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joptaro_18
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 288
+        width: 101
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99b513b287bf88df0800000000000000
+      internalID: -177615691741832295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joptaro_19
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 286
+        width: 97
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56acd8a928a59c830800000000000000
+      internalID: 4091901253428038245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joptaro_20
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 57
+        width: 172
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d90279c87c357a00800000000000000
+      internalID: 753575002127862226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joptaro_21
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 59
+        width: 180
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a93b187f2e8f01ae0800000000000000
+      internalID: -1580489815508274278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joptaro_22
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 54
+        width: 193
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a6cf08a56e59c480800000000000000
+      internalID: -8878461399679908187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joptaro_23
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 55
+        width: 241
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6be48acaf73312c80800000000000000
+      internalID: -8349335610717614410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joptaro_24
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 55
+        width: 210
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78f2beccaf9d08350800000000000000
+      internalID: 6017048773369999239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Joptaro_0: 73182231649188800
+      Joptaro_1: -8543107032002522008
+      Joptaro_10: -6248872069556186092
+      Joptaro_11: -984661727984906856
+      Joptaro_12: 8899989396545790806
+      Joptaro_13: -8996624862708675730
+      Joptaro_14: 8883738036595639492
+      Joptaro_15: -5749575354105157390
+      Joptaro_16: 4402448010726007686
+      Joptaro_17: -8669778406399501781
+      Joptaro_18: -177615691741832295
+      Joptaro_19: 4091901253428038245
+      Joptaro_2: 8706987922458130637
+      Joptaro_20: 753575002127862226
+      Joptaro_21: -1580489815508274278
+      Joptaro_22: -8878461399679908187
+      Joptaro_23: -8349335610717614410
+      Joptaro_24: 6017048773369999239
+      Joptaro_3: 3418752890500722878
+      Joptaro_4: -1778631460972972256
+      Joptaro_5: -3231824587995275132
+      Joptaro_6: -1805688846273107980
+      Joptaro_7: -65293608328999071
+      Joptaro_8: 677072701024376182
+      Joptaro_9: 1965185305725301839
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

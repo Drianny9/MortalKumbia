@@ -1,0 +1,1456 @@
+fileFormatVersion: 2
+guid: 353ede4b687c47d45b3bf9febf975416
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6633784726198624801
+    second: CJ_0
+  - first:
+      213: 386009677012925180
+    second: CJ_1
+  - first:
+      213: 3681559635501911825
+    second: CJ_2
+  - first:
+      213: -4210746665334493227
+    second: CJ_3
+  - first:
+      213: -4198362078747051704
+    second: CJ_4
+  - first:
+      213: 8142052440580797104
+    second: CJ_5
+  - first:
+      213: -5220541403596668643
+    second: CJ_6
+  - first:
+      213: -8302097234776615871
+    second: CJ_7
+  - first:
+      213: -5683717990746831438
+    second: CJ_8
+  - first:
+      213: -7826086351668392477
+    second: CJ_9
+  - first:
+      213: 7917531212312785350
+    second: CJ_10
+  - first:
+      213: 155222367617832126
+    second: CJ_11
+  - first:
+      213: 4725061495758626110
+    second: CJ_12
+  - first:
+      213: 7191448423370050142
+    second: CJ_13
+  - first:
+      213: -5096382555085437192
+    second: CJ_14
+  - first:
+      213: 4338453338772262676
+    second: CJ_15
+  - first:
+      213: 7635458258814823239
+    second: CJ_16
+  - first:
+      213: 4125364358423364187
+    second: CJ_17
+  - first:
+      213: -8170127382965643434
+    second: CJ_18
+  - first:
+      213: -3465885770914248769
+    second: CJ_19
+  - first:
+      213: 7366071898238118453
+    second: CJ_20
+  - first:
+      213: -2623798521290606140
+    second: CJ_21
+  - first:
+      213: 5195660294074757962
+    second: CJ_22
+  - first:
+      213: 5786979076576398372
+    second: CJ_23
+  - first:
+      213: -9202873465996493538
+    second: CJ_24
+  - first:
+      213: 3157134701908847254
+    second: CJ_25
+  - first:
+      213: -459079552563722801
+    second: CJ_26
+  - first:
+      213: -3917860645754178928
+    second: CJ_27
+  - first:
+      213: -5229849405775825028
+    second: CJ_28
+  - first:
+      213: 3900439703901314943
+    second: CJ_29
+  - first:
+      213: -4120996198098788124
+    second: CJ_30
+  - first:
+      213: 8172632291207486694
+    second: CJ_31
+  - first:
+      213: 996695470087882363
+    second: CJ_32
+  - first:
+      213: -3649826599466742512
+    second: CJ_33
+  - first:
+      213: 2471159717633723149
+    second: CJ_34
+  - first:
+      213: -1489659143147283173
+    second: CJ_35
+  - first:
+      213: -888949811356834174
+    second: CJ_36
+  - first:
+      213: -8406190829694619931
+    second: CJ_37
+  - first:
+      213: 4426827645623971671
+    second: CJ_38
+  - first:
+      213: 8283709643740331649
+    second: CJ_39
+  - first:
+      213: 361500892039890733
+    second: CJ_40
+  - first:
+      213: 8669582879807863329
+    second: CJ_41
+  - first:
+      213: -7843179184002937754
+    second: CJ_42
+  - first:
+      213: -6092318760054932764
+    second: CJ_43
+  - first:
+      213: 9050587058830940586
+    second: CJ_44
+  - first:
+      213: -6040824798716499238
+    second: CJ_45
+  - first:
+      213: -6347215695824639350
+    second: CJ_46
+  - first:
+      213: 7662612241899192501
+    second: CJ_47
+  - first:
+      213: 2376321678984650516
+    second: CJ_48
+  - first:
+      213: 1909556242343999556
+    second: CJ_49
+  - first:
+      213: -6613100859136243597
+    second: CJ_50
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CJ_0
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1020
+        width: 93
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1222b79af00ff0c50800000000000000
+      internalID: 6633784726198624801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CJ_1
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1020
+        width: 93
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfaf73e81c16b5500800000000000000
+      internalID: 386009677012925180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CJ_2
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 1020
+        width: 92
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11f02859bf6871330800000000000000
+      internalID: 3681559635501911825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CJ_3
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 1020
+        width: 96
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dfa395a73c6095c0800000000000000
+      internalID: -4210746665334493227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CJ_4
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 1020
+        width: 93
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 849bfc9eeeb6cb5c0800000000000000
+      internalID: -4198362078747051704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CJ_5
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 778
+        width: 134
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b2bb676e816ef070800000000000000
+      internalID: 8142052440580797104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CJ_6
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 778
+        width: 90
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d11c667c049ec87b0800000000000000
+      internalID: -5220541403596668643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CJ_7
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 778
+        width: 170
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14413662d8609cc80800000000000000
+      internalID: -8302097234776615871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CJ_8
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 778
+        width: 131
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b5c90ed9906f11b0800000000000000
+      internalID: -5683717990746831438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CJ_9
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 777
+        width: 131
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3edc5437de7246390800000000000000
+      internalID: -7826086351668392477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CJ_10
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 538
+        width: 155
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c1b8ff40b8b0ed60800000000000000
+      internalID: 7917531212312785350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CJ_11
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 539
+        width: 166
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb45e03cbe5772200800000000000000
+      internalID: 155222367617832126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CJ_12
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 555
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3d919c556ac29140800000000000000
+      internalID: 4725061495758626110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CJ_13
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 537
+        width: 157
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5ac3873d382dc360800000000000000
+      internalID: 7191448423370050142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CJ_14
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 579
+        width: 10
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f682a461130649b0800000000000000
+      internalID: -5096382555085437192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CJ_15
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 537
+        width: 156
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41fc0245358453c30800000000000000
+      internalID: 4338453338772262676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CJ_16
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 538
+        width: 157
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74beafdf4d896f960800000000000000
+      internalID: 7635458258814823239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CJ_17
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 556
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b52c1e0e60d304930800000000000000
+      internalID: 4125364358423364187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CJ_18
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 543
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65714a0be60ed9e80800000000000000
+      internalID: -8170127382965643434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CJ_19
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 547
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb743902143b6efc0800000000000000
+      internalID: -3465885770914248769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CJ_20
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 541
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53a68744d5b893660800000000000000
+      internalID: 7366071898238118453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CJ_21
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 318
+        width: 100
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c937487525669bd0800000000000000
+      internalID: -2623798521290606140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CJ_22
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 317
+        width: 122
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a437de97281ba1840800000000000000
+      internalID: 5195660294074757962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CJ_23
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 318
+        width: 101
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42c44f53fca7f4050800000000000000
+      internalID: 5786979076576398372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CJ_24
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 318
+        width: 100
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1d39627753d84080800000000000000
+      internalID: -9202873465996493538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CJ_25
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 318
+        width: 98
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69ae55fb84560db20800000000000000
+      internalID: 3157134701908847254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CJ_26
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 295
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc54bc9449501a9f0800000000000000
+      internalID: -459079552563722801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CJ_27
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 70
+        width: 163
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 092f65a1086f0a9c0800000000000000
+      internalID: -3917860645754178928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CJ_28
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 280
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c77b1f3aca7db67b0800000000000000
+      internalID: -5229849405775825028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CJ_29
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 66
+        width: 147
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7f1edace35212630800000000000000
+      internalID: 3900439703901314943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CJ_30
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 66
+        width: 151
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e02693bac74fc6c0800000000000000
+      internalID: -4120996198098788124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CJ_31
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 246
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ec1f45b4c50b6170800000000000000
+      internalID: 8172632291207486694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CJ_32
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 261
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7644d3df39f4dd00800000000000000
+      internalID: 996695470087882363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CJ_33
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 60
+        width: 181
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01d430f9b06395dc0800000000000000
+      internalID: -3649826599466742512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CJ_34
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 255
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0b00d0aba25b4220800000000000000
+      internalID: 2471159717633723149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CJ_35
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 242
+        width: 17
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1d1b40e6eaa35be0800000000000000
+      internalID: -1489659143147283173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CJ_36
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 64
+        width: 251
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 286ecee3bd0d9a3f0800000000000000
+      internalID: -888949811356834174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CJ_37
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 220
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eee7e17af5375b80800000000000000
+      internalID: -8406190829694619931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CJ_38
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 220
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75fab431a404f6d30800000000000000
+      internalID: 4426827645623971671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CJ_39
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 187
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18ebe913806a5f270800000000000000
+      internalID: 8283709643740331649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CJ_40
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 208
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d274600652f440500800000000000000
+      internalID: 361500892039890733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CJ_41
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 149
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12a71cd12bb805870800000000000000
+      internalID: 8669582879807863329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CJ_42
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 112
+        width: 56
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66c44cb461e672390800000000000000
+      internalID: -7843179184002937754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CJ_43
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 158
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ea3a70cd5cb37ba0800000000000000
+      internalID: -6092318760054932764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CJ_44
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 132
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa99d5a5af42a9d70800000000000000
+      internalID: 9050587058830940586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CJ_45
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 117
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adae12ae9ddaa2ca0800000000000000
+      internalID: -6040824798716499238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CJ_46
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 134
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8aa69124f82ae7a0800000000000000
+      internalID: -6347215695824639350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CJ_47
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 92
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b006f95c31175a60800000000000000
+      internalID: 7662612241899192501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CJ_48
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 98
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f90fb0af36af020800000000000000
+      internalID: 2376321678984650516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CJ_49
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 104
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4483b8ff84b108a10800000000000000
+      internalID: 1909556242343999556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CJ_50
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 73
+        width: 37
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3788a5b6ecb8934a0800000000000000
+      internalID: -6613100859136243597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CJ_0: 6633784726198624801
+      CJ_1: 386009677012925180
+      CJ_10: 7917531212312785350
+      CJ_11: 155222367617832126
+      CJ_12: 4725061495758626110
+      CJ_13: 7191448423370050142
+      CJ_14: -5096382555085437192
+      CJ_15: 4338453338772262676
+      CJ_16: 7635458258814823239
+      CJ_17: 4125364358423364187
+      CJ_18: -8170127382965643434
+      CJ_19: -3465885770914248769
+      CJ_2: 3681559635501911825
+      CJ_20: 7366071898238118453
+      CJ_21: -2623798521290606140
+      CJ_22: 5195660294074757962
+      CJ_23: 5786979076576398372
+      CJ_24: -9202873465996493538
+      CJ_25: 3157134701908847254
+      CJ_26: -459079552563722801
+      CJ_27: -3917860645754178928
+      CJ_28: -5229849405775825028
+      CJ_29: 3900439703901314943
+      CJ_3: -4210746665334493227
+      CJ_30: -4120996198098788124
+      CJ_31: 8172632291207486694
+      CJ_32: 996695470087882363
+      CJ_33: -3649826599466742512
+      CJ_34: 2471159717633723149
+      CJ_35: -1489659143147283173
+      CJ_36: -888949811356834174
+      CJ_37: -8406190829694619931
+      CJ_38: 4426827645623971671
+      CJ_39: 8283709643740331649
+      CJ_4: -4198362078747051704
+      CJ_40: 361500892039890733
+      CJ_41: 8669582879807863329
+      CJ_42: -7843179184002937754
+      CJ_43: -6092318760054932764
+      CJ_44: 9050587058830940586
+      CJ_45: -6040824798716499238
+      CJ_46: -6347215695824639350
+      CJ_47: 7662612241899192501
+      CJ_48: 2376321678984650516
+      CJ_49: 1909556242343999556
+      CJ_5: 8142052440580797104
+      CJ_50: -6613100859136243597
+      CJ_6: -5220541403596668643
+      CJ_7: -8302097234776615871
+      CJ_8: -5683717990746831438
+      CJ_9: -7826086351668392477
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
