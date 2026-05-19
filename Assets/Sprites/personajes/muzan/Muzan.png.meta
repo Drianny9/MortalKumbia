@@ -1,0 +1,1976 @@
+fileFormatVersion: 2
+guid: 196c98501ed0ab24a86ad60eeab66405
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9133175880784595534
+    second: Muzan_0
+  - first:
+      213: -4528076514014267553
+    second: Muzan_1
+  - first:
+      213: 7808841834876195430
+    second: Muzan_2
+  - first:
+      213: 2692117630024661395
+    second: Muzan_3
+  - first:
+      213: -956331009643131915
+    second: Muzan_4
+  - first:
+      213: -2256464907158642074
+    second: Muzan_5
+  - first:
+      213: 3276280391627537522
+    second: Muzan_6
+  - first:
+      213: -5182806207902827571
+    second: Muzan_7
+  - first:
+      213: -3864717552743705303
+    second: Muzan_8
+  - first:
+      213: 2222530365402388325
+    second: Muzan_9
+  - first:
+      213: 6740763912820407066
+    second: Muzan_10
+  - first:
+      213: -6510345324554853312
+    second: Muzan_11
+  - first:
+      213: 3226804978651471302
+    second: Muzan_12
+  - first:
+      213: 1391870841393143094
+    second: Muzan_13
+  - first:
+      213: -3069258239398897522
+    second: Muzan_14
+  - first:
+      213: -8564832528166729440
+    second: Muzan_15
+  - first:
+      213: -7221544212106686350
+    second: Muzan_16
+  - first:
+      213: 3031321924886464347
+    second: Muzan_17
+  - first:
+      213: -3536386601369550240
+    second: Muzan_18
+  - first:
+      213: -7585540897634622520
+    second: Muzan_19
+  - first:
+      213: -6263962893159454885
+    second: Muzan_20
+  - first:
+      213: -8758031932543301129
+    second: Muzan_21
+  - first:
+      213: -9082304797756002811
+    second: Muzan_22
+  - first:
+      213: 1231207835398357077
+    second: Muzan_23
+  - first:
+      213: -5327625260728048384
+    second: Muzan_24
+  - first:
+      213: -4567081098811577755
+    second: Muzan_25
+  - first:
+      213: -2909703961237546729
+    second: Muzan_26
+  - first:
+      213: -1619556428358267459
+    second: Muzan_27
+  - first:
+      213: 7485063337938165274
+    second: Muzan_28
+  - first:
+      213: -8690250605672214276
+    second: Muzan_29
+  - first:
+      213: -4759458314571072258
+    second: Muzan_30
+  - first:
+      213: -1240231786846377749
+    second: Muzan_31
+  - first:
+      213: 8476102456202450122
+    second: Muzan_32
+  - first:
+      213: 3609218043643766314
+    second: Muzan_33
+  - first:
+      213: -8528651493455591017
+    second: Muzan_34
+  - first:
+      213: 1441469178734186968
+    second: Muzan_35
+  - first:
+      213: 30637775013281557
+    second: Muzan_36
+  - first:
+      213: -3161342013243730564
+    second: Muzan_37
+  - first:
+      213: -779448797126657794
+    second: Muzan_38
+  - first:
+      213: 1279744535192553240
+    second: Muzan_39
+  - first:
+      213: -3447088519677427409
+    second: Muzan_40
+  - first:
+      213: -6069300974510461341
+    second: Muzan_41
+  - first:
+      213: -6141166090564253159
+    second: Muzan_42
+  - first:
+      213: 4298912017758822067
+    second: Muzan_43
+  - first:
+      213: -1746611773812543123
+    second: Muzan_44
+  - first:
+      213: 9133417586107920201
+    second: Muzan_45
+  - first:
+      213: -7979331286614487034
+    second: Muzan_46
+  - first:
+      213: 5701758273821053069
+    second: Muzan_47
+  - first:
+      213: 1230387974132007148
+    second: Muzan_48
+  - first:
+      213: -4837965615844211333
+    second: Muzan_49
+  - first:
+      213: 3232561040419444837
+    second: Muzan_50
+  - first:
+      213: -7610559221543569232
+    second: Muzan_51
+  - first:
+      213: 6494838855183694821
+    second: Muzan_52
+  - first:
+      213: -1470187391815382939
+    second: Muzan_53
+  - first:
+      213: 3031902703450577351
+    second: Muzan_54
+  - first:
+      213: -7120933345519199662
+    second: Muzan_55
+  - first:
+      213: 7663669226664344799
+    second: Muzan_56
+  - first:
+      213: -8302466117606483230
+    second: Muzan_57
+  - first:
+      213: -2996384470588722994
+    second: Muzan_58
+  - first:
+      213: -243078806275319966
+    second: Muzan_59
+  - first:
+      213: 2590799604418493588
+    second: Muzan_60
+  - first:
+      213: 5325682703755503617
+    second: Muzan_61
+  - first:
+      213: -3222387304761933477
+    second: Muzan_62
+  - first:
+      213: -73984174372927441
+    second: Muzan_63
+  - first:
+      213: -1321542890425751013
+    second: Muzan_64
+  - first:
+      213: -6758008363580445847
+    second: Muzan_65
+  - first:
+      213: -7020394848664558446
+    second: Muzan_66
+  - first:
+      213: 5334180670572642428
+    second: Muzan_67
+  - first:
+      213: -8457363193033609053
+    second: Muzan_68
+  - first:
+      213: -8392345358911284645
+    second: Muzan_69
+  - first:
+      213: -9201679456058875301
+    second: Muzan_70
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Muzan_0
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1014
+        width: 85
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b53ba21de0704180800000000000000
+      internalID: -9133175880784595534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_1
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1014
+        width: 83
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f57f36ab66a0921c0800000000000000
+      internalID: -4528076514014267553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_2
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 1013
+        width: 94
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 662510b96449e5c60800000000000000
+      internalID: 7808841834876195430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_3
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1013
+        width: 86
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 399bf2798b25c5520800000000000000
+      internalID: 2692117630024661395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_4
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 1013
+        width: 91
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fbc78a730e6ab2f0800000000000000
+      internalID: -956331009643131915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_5
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 764
+        width: 123
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 662aca84f1d6fa0e0800000000000000
+      internalID: -2256464907158642074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_6
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 764
+        width: 170
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27c798f58afa77d20800000000000000
+      internalID: 3276280391627537522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_7
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 763
+        width: 175
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcb334ea639f218b0800000000000000
+      internalID: -5182806207902827571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_8
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 762
+        width: 221
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9259e77acd3cd5ac0800000000000000
+      internalID: -3864717552743705303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_9
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 763
+        width: 102
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5671454879308de10800000000000000
+      internalID: 2222530365402388325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_10
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 639
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1bbe6a80110c8d50800000000000000
+      internalID: 6740763912820407066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_11
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 526
+        width: 119
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04468ccab6b96a5a0800000000000000
+      internalID: -6510345324554853312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_12
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 622
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cd9bff180ae7cc20800000000000000
+      internalID: 3226804978651471302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_13
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 628
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63d5672e72be05310800000000000000
+      internalID: 1391870841393143094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_14
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 528
+        width: 141
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8810b494edc765d0800000000000000
+      internalID: -3069258239398897522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_15
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 527
+        width: 145
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02949eda13a932980800000000000000
+      internalID: -8564832528166729440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_16
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 627
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2705a9beccbe7cb90800000000000000
+      internalID: -7221544212106686350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_17
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 526
+        width: 182
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5706b4ea3b611a20800000000000000
+      internalID: 3031321924886464347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_18
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 526
+        width: 133
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 062cae46f1b3ceec0800000000000000
+      internalID: -3536386601369550240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_19
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 600
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c36a475ebebab690800000000000000
+      internalID: -7585540897634622520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_20
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 616
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b57a003cfeee119a0800000000000000
+      internalID: -6263962893159454885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_21
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 623
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f98a310c58357680800000000000000
+      internalID: -8758031932543301129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_22
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 616
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50e6de318eb25f180800000000000000
+      internalID: -9082304797756002811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_23
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 609
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 550c899c001261110800000000000000
+      internalID: 1231207835398357077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_24
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 606
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00528e56d097016b0800000000000000
+      internalID: -5327625260728048384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_25
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 598
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56a6fe420f77e90c0800000000000000
+      internalID: -4567081098811577755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_26
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 599
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71993ecd9a7ae97d0800000000000000
+      internalID: -2909703961237546729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_27
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 563
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbd410a520e2689e0800000000000000
+      internalID: -1619556428358267459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_28
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 566
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1e9a13c27940e760800000000000000
+      internalID: 7485063337938165274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_29
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 554
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf0d8c7fd17066780800000000000000
+      internalID: -8690250605672214276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_30
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 565
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efc36bc21e103fdb0800000000000000
+      internalID: -4759458314571072258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_31
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 540
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be8afd9c2cfc9cee0800000000000000
+      internalID: -1240231786846377749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_32
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 540
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac453cd864a21a570800000000000000
+      internalID: 8476102456202450122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_33
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 549
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a26215030b4861230800000000000000
+      internalID: 3609218043643766314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_34
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 529
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 799897747a424a980800000000000000
+      internalID: -8528651493455591017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_35
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 531
+        width: 35
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d11021b490210410800000000000000
+      internalID: 1441469178734186968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_36
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 531
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51fff50e4e8dc6000800000000000000
+      internalID: 30637775013281557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_37
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 538
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c75d61f3038a024d0800000000000000
+      internalID: -3161342013243730564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_38
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 297
+        width: 74
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef8f8aed277de25f0800000000000000
+      internalID: -779448797126657794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_39
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 297
+        width: 81
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8174667dfd092c110800000000000000
+      internalID: 1279744535192553240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_40
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 297
+        width: 76
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f21cc4b314b7920d0800000000000000
+      internalID: -3447088519677427409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_41
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 297
+        width: 77
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36e2f539be285cba0800000000000000
+      internalID: -6069300974510461341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_42
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 297
+        width: 88
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91a4e395af136caa0800000000000000
+      internalID: -6141166090564253159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_43
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 52
+        width: 170
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3be1c2b14bdc8ab30800000000000000
+      internalID: 4298912017758822067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_44
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 270
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d61736d78d9c2c7e0800000000000000
+      internalID: -1746611773812543123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_45
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 284
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94fa44557ea60ce70800000000000000
+      internalID: 9133417586107920201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_46
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 280
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 600de2c9878b34190800000000000000
+      internalID: -7979331286614487034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_47
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 57
+        width: 174
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d809f3ad0f6b02f40800000000000000
+      internalID: 5701758273821053069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_48
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 53
+        width: 160
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce00d06f757331110800000000000000
+      internalID: 1230387974132007148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_49
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 271
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b754d00b7e71cdcb0800000000000000
+      internalID: -4837965615844211333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_50
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 274
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 568d7f0b32d5cdc20800000000000000
+      internalID: 3232561040419444837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_51
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 205
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b872d1e5bcd16690800000000000000
+      internalID: -7610559221543569232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_52
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 161
+        width: 51
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ebf0a4178d422a50800000000000000
+      internalID: 6494838855183694821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_53
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 56
+        width: 163
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56806954b58d89be0800000000000000
+      internalID: -1470187391815382939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_54
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 55
+        width: 227
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c9d7b0f17b731a20800000000000000
+      internalID: 3031902703450577351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_55
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 216
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25a181fb9dc5d2d90800000000000000
+      internalID: -7120933345519199662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_56
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 197
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdcbb6bce82da5a60800000000000000
+      internalID: 7663669226664344799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_57
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 179
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ea595ced07b7cc80800000000000000
+      internalID: -8302466117606483230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_58
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 179
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec0ff041334ba66d0800000000000000
+      internalID: -2996384470588722994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_59
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 188
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26798831d1960acf0800000000000000
+      internalID: -243078806275319966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_60
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 165
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49c3699738e54f320800000000000000
+      internalID: 2590799604418493588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_61
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 153
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 108e9cfc330a8e940800000000000000
+      internalID: 5325682703755503617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_62
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 159
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b51cfeab1d7c743d0800000000000000
+      internalID: -3222387304761933477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_63
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 150
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f28408f09c729fef0800000000000000
+      internalID: -73984174372927441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_64
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 148
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1aeab43ebfe8ade0800000000000000
+      internalID: -1321542890425751013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_65
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 142
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96b2ba3e23bb632a0800000000000000
+      internalID: -6758008363580445847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_66
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 143
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 294ed5ea41c829e90800000000000000
+      internalID: -7020394848664558446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_67
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 129
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c70cc35ee01d60a40800000000000000
+      internalID: 5334180670572642428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_68
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 132
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a0b4c62cf861aa80800000000000000
+      internalID: -8457363193033609053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_69
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 87
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5ad1b15c56688b80800000000000000
+      internalID: -8392345358911284645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muzan_70
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 84
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b52e99c89411d4080800000000000000
+      internalID: -9201679456058875301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Muzan_0: -9133175880784595534
+      Muzan_1: -4528076514014267553
+      Muzan_10: 6740763912820407066
+      Muzan_11: -6510345324554853312
+      Muzan_12: 3226804978651471302
+      Muzan_13: 1391870841393143094
+      Muzan_14: -3069258239398897522
+      Muzan_15: -8564832528166729440
+      Muzan_16: -7221544212106686350
+      Muzan_17: 3031321924886464347
+      Muzan_18: -3536386601369550240
+      Muzan_19: -7585540897634622520
+      Muzan_2: 7808841834876195430
+      Muzan_20: -6263962893159454885
+      Muzan_21: -8758031932543301129
+      Muzan_22: -9082304797756002811
+      Muzan_23: 1231207835398357077
+      Muzan_24: -5327625260728048384
+      Muzan_25: -4567081098811577755
+      Muzan_26: -2909703961237546729
+      Muzan_27: -1619556428358267459
+      Muzan_28: 7485063337938165274
+      Muzan_29: -8690250605672214276
+      Muzan_3: 2692117630024661395
+      Muzan_30: -4759458314571072258
+      Muzan_31: -1240231786846377749
+      Muzan_32: 8476102456202450122
+      Muzan_33: 3609218043643766314
+      Muzan_34: -8528651493455591017
+      Muzan_35: 1441469178734186968
+      Muzan_36: 30637775013281557
+      Muzan_37: -3161342013243730564
+      Muzan_38: -779448797126657794
+      Muzan_39: 1279744535192553240
+      Muzan_4: -956331009643131915
+      Muzan_40: -3447088519677427409
+      Muzan_41: -6069300974510461341
+      Muzan_42: -6141166090564253159
+      Muzan_43: 4298912017758822067
+      Muzan_44: -1746611773812543123
+      Muzan_45: 9133417586107920201
+      Muzan_46: -7979331286614487034
+      Muzan_47: 5701758273821053069
+      Muzan_48: 1230387974132007148
+      Muzan_49: -4837965615844211333
+      Muzan_5: -2256464907158642074
+      Muzan_50: 3232561040419444837
+      Muzan_51: -7610559221543569232
+      Muzan_52: 6494838855183694821
+      Muzan_53: -1470187391815382939
+      Muzan_54: 3031902703450577351
+      Muzan_55: -7120933345519199662
+      Muzan_56: 7663669226664344799
+      Muzan_57: -8302466117606483230
+      Muzan_58: -2996384470588722994
+      Muzan_59: -243078806275319966
+      Muzan_6: 3276280391627537522
+      Muzan_60: 2590799604418493588
+      Muzan_61: 5325682703755503617
+      Muzan_62: -3222387304761933477
+      Muzan_63: -73984174372927441
+      Muzan_64: -1321542890425751013
+      Muzan_65: -6758008363580445847
+      Muzan_66: -7020394848664558446
+      Muzan_67: 5334180670572642428
+      Muzan_68: -8457363193033609053
+      Muzan_69: -8392345358911284645
+      Muzan_7: -5182806207902827571
+      Muzan_70: -9201679456058875301
+      Muzan_8: -3864717552743705303
+      Muzan_9: 2222530365402388325
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
