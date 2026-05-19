@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: 1de24b3da0c9e6c4a8c160a3d8d75058
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3729148656593625307
+    second: Jotaro_Poses_0
+  - first:
+      213: 8954191512757594392
+    second: Jotaro_Poses_1
+  - first:
+      213: 6804975839462505848
+    second: Jotaro_Poses_2
+  - first:
+      213: -3579174979578336943
+    second: Jotaro_Poses_3
+  - first:
+      213: 9133508392643486536
+    second: Jotaro_Poses_4
+  - first:
+      213: 1915370907499004952
+    second: Jotaro_Poses_5
+  - first:
+      213: -4118835997837493640
+    second: Jotaro_Poses_6
+  - first:
+      213: 6498156199767509706
+    second: Jotaro_Poses_7
+  - first:
+      213: 5770289982810549696
+    second: Jotaro_Poses_8
+  - first:
+      213: -6685564739958782896
+    second: Jotaro_Poses_9
+  - first:
+      213: -4326484000932965792
+    second: Jotaro_Poses_10
+  - first:
+      213: 7858404778152896486
+    second: Jotaro_Poses_11
+  - first:
+      213: 4359696019560235237
+    second: Jotaro_Poses_12
+  - first:
+      213: -1209266673192574827
+    second: Jotaro_Poses_13
+  - first:
+      213: 1443844286012275566
+    second: Jotaro_Poses_14
+  - first:
+      213: -940576368525502648
+    second: Jotaro_Poses_15
+  - first:
+      213: -7934366972667819341
+    second: Jotaro_Poses_16
+  - first:
+      213: -964625547442840925
+    second: Jotaro_Poses_17
+  - first:
+      213: 2877328571765289821
+    second: Jotaro_Poses_18
+  - first:
+      213: 6803177471277731958
+    second: Jotaro_Poses_19
+  - first:
+      213: 462920910223326194
+    second: Jotaro_Poses_20
+  - first:
+      213: -1041801700913890024
+    second: Jotaro_Poses_21
+  - first:
+      213: 271522864293821874
+    second: Jotaro_Poses_22
+  - first:
+      213: 5297609599935393324
+    second: Jotaro_Poses_23
+  - first:
+      213: 8638287734405533414
+    second: Jotaro_Poses_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Jotaro_Poses_0
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1010
+        width: 89
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd063eef1f890c330800000000000000
+      internalID: 3729148656593625307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotaro_Poses_1
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1009
+        width: 88
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 819ebb05dbda34c70800000000000000
+      internalID: 8954191512757594392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotaro_Poses_2
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 1009
+        width: 107
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87d3740c871207e50800000000000000
+      internalID: 6804975839462505848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotaro_Poses_3
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 1009
+        width: 111
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1596441c157345ec0800000000000000
+      internalID: -3579174979578336943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotaro_Poses_4
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 1009
+        width: 94
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8436090ed7db0ce70800000000000000
+      internalID: 9133508392643486536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotaro_Poses_5
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 785
+        width: 92
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 814889a31b3c49a10800000000000000
+      internalID: 1915370907499004952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotaro_Poses_6
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 785
+        width: 95
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87afdc48b74f6d6c0800000000000000
+      internalID: -4118835997837493640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotaro_Poses_7
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 785
+        width: 96
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aca052e82a61e2a50800000000000000
+      internalID: 6498156199767509706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotaro_Poses_8
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 785
+        width: 118
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cdea64ca20341050800000000000000
+      internalID: 5770289982810549696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotaro_Poses_9
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 785
+        width: 168
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05441e76a4a1833a0800000000000000
+      internalID: -6685564739958782896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotaro_Poses_10
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 537
+        width: 157
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 062dafd49bd35f3c0800000000000000
+      internalID: -4326484000932965792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotaro_Poses_11
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 535
+        width: 133
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e729079289ae0d60800000000000000
+      internalID: 7858404778152896486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotaro_Poses_12
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 535
+        width: 128
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e0829e5e60c08c30800000000000000
+      internalID: 4359696019560235237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotaro_Poses_13
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 535
+        width: 94
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59063a12e52d73fe0800000000000000
+      internalID: -1209266673192574827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotaro_Poses_14
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 535
+        width: 145
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6b3db27ab0990410800000000000000
+      internalID: 1443844286012275566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotaro_Poses_15
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 304
+        width: 94
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84719e5b6c662f2f0800000000000000
+      internalID: -940576368525502648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotaro_Poses_16
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 303
+        width: 96
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ba0b84c64773e190800000000000000
+      internalID: -7934366972667819341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotaro_Poses_17
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 303
+        width: 130
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aa1767ec26fc92f0800000000000000
+      internalID: -964625547442840925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotaro_Poses_18
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 304
+        width: 100
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d53f62e57135ee720800000000000000
+      internalID: 2877328571765289821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotaro_Poses_19
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 303
+        width: 96
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67013778dddb96e50800000000000000
+      internalID: 6803177471277731958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotaro_Poses_20
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 57
+        width: 162
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fb36fc7d10ac6600800000000000000
+      internalID: 462920910223326194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotaro_Poses_21
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 57
+        width: 161
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81d31aa6fd6ca81f0800000000000000
+      internalID: -1041801700913890024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotaro_Poses_22
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 55
+        width: 180
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bd31a24b94a4c300800000000000000
+      internalID: 271522864293821874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotaro_Poses_23
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 55
+        width: 158
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2e29dafcd3e48940800000000000000
+      internalID: 5297609599935393324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotaro_Poses_24
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 54
+        width: 199
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ee0bd44dec51e770800000000000000
+      internalID: 8638287734405533414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Jotaro_Poses_0: 3729148656593625307
+      Jotaro_Poses_1: 8954191512757594392
+      Jotaro_Poses_10: -4326484000932965792
+      Jotaro_Poses_11: 7858404778152896486
+      Jotaro_Poses_12: 4359696019560235237
+      Jotaro_Poses_13: -1209266673192574827
+      Jotaro_Poses_14: 1443844286012275566
+      Jotaro_Poses_15: -940576368525502648
+      Jotaro_Poses_16: -7934366972667819341
+      Jotaro_Poses_17: -964625547442840925
+      Jotaro_Poses_18: 2877328571765289821
+      Jotaro_Poses_19: 6803177471277731958
+      Jotaro_Poses_2: 6804975839462505848
+      Jotaro_Poses_20: 462920910223326194
+      Jotaro_Poses_21: -1041801700913890024
+      Jotaro_Poses_22: 271522864293821874
+      Jotaro_Poses_23: 5297609599935393324
+      Jotaro_Poses_24: 8638287734405533414
+      Jotaro_Poses_3: -3579174979578336943
+      Jotaro_Poses_4: 9133508392643486536
+      Jotaro_Poses_5: 1915370907499004952
+      Jotaro_Poses_6: -4118835997837493640
+      Jotaro_Poses_7: 6498156199767509706
+      Jotaro_Poses_8: 5770289982810549696
+      Jotaro_Poses_9: -6685564739958782896
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
