@@ -20,6 +20,8 @@ public class InterfazCombate : MonoBehaviour
     public Text textoEnergiaP2;
     public Text textoTurno;
     public Text textoMensaje;
+    public Text textoHabilidadesP1;
+    public Text textoHabilidadesP2;
 
     void Start()
     {
@@ -28,6 +30,8 @@ public class InterfazCombate : MonoBehaviour
 
         //actualizar la interfaz nada mas empezar la partida
         ActualizarInterfaz();
+        //configurar los textos de habilidades de cada jugador
+        ConfigurarTextosHabilidades();
     }
 
     void Update()
@@ -108,6 +112,21 @@ public class InterfazCombate : MonoBehaviour
         ActualizarVida();
         ActualizarEnergia();
         ActualizarTurno();
+    }
+
+    private void ConfigurarTextosHabilidades()
+    {
+        //poner las habilidades iniciales del jugador 1
+        if (textoHabilidadesP1 != null)
+        {
+            textoHabilidadesP1.text = "1 - Paso basico\n2 - Paso fuerte\n3 - Defensa\n4 - Ulti";
+        }
+
+        //poner las habilidades iniciales del jugador 2
+        if (textoHabilidadesP2 != null)
+        {
+            textoHabilidadesP2.text = "1 - Paso basico\n2 - Paso fuerte\n3 - Defensa\n4 - Ulti";
+        }
     }
 
     private void ActualizarVida()
