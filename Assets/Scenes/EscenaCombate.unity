@@ -922,10 +922,6 @@ MonoBehaviour:
   barraVidaP2: {fileID: 0}
   barraEnergiaP1: {fileID: 0}
   barraEnergiaP2: {fileID: 0}
-  textoVidaP1: {fileID: 0}
-  textoVidaP2: {fileID: 0}
-  textoEnergiaP1: {fileID: 0}
-  textoEnergiaP2: {fileID: 0}
   textoTurno: {fileID: 0}
   textoMensaje: {fileID: 0}
   textoHabilidadesP1: {fileID: 1579168415}
