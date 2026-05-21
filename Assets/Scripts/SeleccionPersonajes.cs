@@ -28,6 +28,7 @@ public class SeleccionPersonajes : MonoBehaviour
             return;
         }
 
+        // Primero llena el equipo del jugador 1. Cuando llega a 3, pasa al jugador 2.
         if (jugadorActual == 1)
         {
             AgregarAlEquipo(equipoP1, datosPersonaje);
@@ -44,6 +45,7 @@ public class SeleccionPersonajes : MonoBehaviour
 
         ActualizarTextoEstado();
 
+        // Cuando los dos equipos estan completos, guardamos la seleccion y vamos al combate.
         if (equipoP1.Count >= personajesPorEquipo && equipoP2.Count >= personajesPorEquipo)
         {
             DatosSeleccionCombate.GuardarEquipos(equipoP1.ToArray(), equipoP2.ToArray());
@@ -62,6 +64,7 @@ public class SeleccionPersonajes : MonoBehaviour
 
     private void AgregarAlEquipo(List<DatosPersonaje> equipo, DatosPersonaje datosPersonaje)
     {
+        // Evita meter mas personajes de los permitidos.
         if (equipo.Count < personajesPorEquipo)
         {
             equipo.Add(datosPersonaje);

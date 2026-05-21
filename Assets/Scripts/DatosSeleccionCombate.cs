@@ -1,5 +1,8 @@
 public static class DatosSeleccionCombate
 {
+    // Esta clase guarda los equipos mientras cambiamos de la escena de seleccion a la pelea.
+    // Es static porque no esta en ningun GameObject concreto.
+
     public static DatosPersonaje[] equipoP1;
     public static DatosPersonaje[] equipoP2;
 

@@ -23,8 +23,8 @@ public class Luchador : MonoBehaviour
 
     void Awake()
     {
-        // Si el personaje tiene Animator pero no tiene nuestro helper,
-        // lo anadimos para no tener que configurarlo todo a mano al principio.
+        // Buscamos el script que se encarga de reproducir animaciones.
+        // Si no esta puesto pero hay Animator, lo anadimos para poder probar rapido.
         if (animadorLuchador == null)
         {
             animadorLuchador = GetComponent<AnimadorLuchador>();
@@ -48,8 +48,8 @@ public class Luchador : MonoBehaviour
     {
         datosPersonaje = nuevosDatos;
 
-        // Con DatosPersonaje, el luchador se configura desde un asset de Unity.
-        // Sin DatosPersonaje, usa los valores escritos en el Inspector.
+        // Si hay DatosPersonaje, copiamos su vida, dano y nombre.
+        // Si no hay datos, se usan los valores escritos en este componente.
         if (datosPersonaje != null)
         {
             nombrePersonaje = datosPersonaje.nombrePersonaje;
@@ -70,8 +70,7 @@ public class Luchador : MonoBehaviour
         {
             if (datosPersonaje == null)
             {
-                // Para pruebas rapidas con personajes puestos a mano:
-                // buscamos un clip que contenga "idle" en vez de obligarte a crear datos.
+                // Para personajes puestos a mano, buscamos una animacion con "idle" en el nombre.
                 animadorLuchador.estadoIdle = BuscarEstadoAnimacion("idle", "idle");
             }
 
@@ -124,11 +123,10 @@ public class Luchador : MonoBehaviour
     {
         if (animadorLuchador == null)
         {
-            // Si no hay animador, no esperamos nada y el combate sigue.
+            // Si el personaje no tiene animador, el combate continua sin animacion.
             yield break;
         }
 
-        // Esta espera la hace AnimadorLuchador usando la duracion real del clip.
         yield return animadorLuchador.ReproducirAccion(estado);
     }
 
@@ -154,8 +152,7 @@ public class Luchador : MonoBehaviour
 
     private string BuscarEstadoAnimacion(string textoBuscado, string respaldo)
     {
-        // Esto es una ayuda para no depender al 100% de DatosPersonaje mientras pruebas.
-        // Por ejemplo, si existe "Jotaro_basico", con buscar "basico" ya lo encuentra.
+        // Ayuda para pruebas: si existe "Jotaro_basico", buscando "basico" lo encuentra.
         if (animadorLuchador == null ||
             animadorLuchador.animator == null ||
             animadorLuchador.animator.runtimeAnimatorController == null)
