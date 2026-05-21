@@ -45,6 +45,9 @@ public class GestorCombate : MonoBehaviour
     private int indiceP2;
     private bool defensaP1;
     private bool defensaP2;
+
+    // Mientras esto esta activo no dejamos pulsar otro ataque.
+    // Asi la animacion termina antes de cambiar de turno o recibir otro input.
     private bool accionEnCurso;
 
     void Start()
@@ -94,6 +97,8 @@ public class GestorCombate : MonoBehaviour
     {
         if (PuedeActuar())
         {
+            // StartCoroutine permite que el ataque espere a que acabe la animacion.
+            // Si llamasemos a un metodo normal, el dano se aplicaria al instante.
             StartCoroutine(EjecutarAtaque(TipoAccion.Basico));
         }
     }
@@ -150,9 +155,14 @@ public class GestorCombate : MonoBehaviour
         if (atacante == null || defensor == null)
         {
             accionEnCurso = false;
+
+            // yield break corta la corrutina aqui.
+            // Lo usamos porque sin atacante o defensor no hay combate que ejecutar.
             yield break;
         }
 
+        // Cada yield return espera a que el Luchador termine su animacion.
+        // Despues de esto ya calculamos dano, energia y cambio de turno.
         if (tipoAccion == TipoAccion.Basico)
         {
             yield return atacante.ReproducirBasico();
@@ -171,6 +181,7 @@ public class GestorCombate : MonoBehaviour
 
         if (DefensorEstaDefendiendo())
         {
+            // La defensa solo protege contra el siguiente golpe recibido.
             danoFinal *= multiplicadorDefensa;
             QuitarDefensaDefensor();
         }
@@ -190,6 +201,8 @@ public class GestorCombate : MonoBehaviour
             {
                 TerminarCombate(defensorEsP1 ? 2 : 1);
                 accionEnCurso = false;
+
+                // No cambiamos turno si la partida ya ha terminado.
                 yield break;
             }
         }
@@ -228,6 +241,8 @@ public class GestorCombate : MonoBehaviour
 
     private void PrepararEquipos()
     {
+        // Si venimos del selector usamos esos equipos.
+        // Si abrimos EscenaCombate directamente en Unity, usamos los equipos por defecto.
         if (DatosSeleccionCombate.HaySeleccionCompleta)
         {
             equipoP1 = DatosSeleccionCombate.equipoP1;
@@ -245,6 +260,8 @@ public class GestorCombate : MonoBehaviour
         indiceP1 = 0;
         indiceP2 = 0;
 
+        // Si hay datos de equipo, instanciamos personajes desde prefab.
+        // Si todavia estas probando con P1/P2 puestos a mano, los respetamos.
         if (EquipoTieneDatos(equipoP1))
         {
             luchadorP1 = InstanciarLuchador(equipoP1[indiceP1], spawnP1, false, luchadorP1);
@@ -275,6 +292,7 @@ public class GestorCombate : MonoBehaviour
                 return false;
             }
 
+            // El personaje anterior ya murio: lo quitamos y ponemos el siguiente del equipo.
             DestruirLuchadorSeguro(luchadorP1);
             energiaP1 = energiaInicial;
             defensaP1 = false;
@@ -316,6 +334,7 @@ public class GestorCombate : MonoBehaviour
 
         if (invertir)
         {
+            // P2 mira hacia la izquierda. Por eso invertimos la escala en X.
             Vector3 escala = instancia.transform.localScale;
             escala.x = -Mathf.Abs(escala.x);
             instancia.transform.localScale = escala;
@@ -351,6 +370,7 @@ public class GestorCombate : MonoBehaviour
 
     private bool PuedeActuar()
     {
+        // Esta es la puerta de entrada para cualquier boton/tecla de accion.
         return estadoActual != EstadoJuego.FIN_COMBATE &&
                !accionEnCurso &&
                luchadorP1 != null &&

@@ -9,6 +9,8 @@ public class AnimadorLuchador : MonoBehaviour
     [Header("Estado por defecto")]
     public string estadoIdle = "idle";
 
+    // Algunas animaciones tienen keyframes de posicion.
+    // Bloqueamos la posicion para que el personaje no se vaya al centro al atacar.
     private bool bloquearPosicion;
     private Vector3 posicionBloqueada;
 
@@ -22,6 +24,8 @@ public class AnimadorLuchador : MonoBehaviour
 
     void LateUpdate()
     {
+        // LateUpdate corre despues de que el Animator haya aplicado sus cambios.
+        // Por eso sirve para devolver el personaje a su sitio si una animacion lo movio.
         if (bloquearPosicion)
         {
             transform.position = posicionBloqueada;
@@ -50,6 +54,8 @@ public class AnimadorLuchador : MonoBehaviour
 
         ReproducirEstado(estadoAccion);
 
+        // No usamos una duracion escrita a mano:
+        // miramos cuanto dura el clip real y esperamos eso.
         float duracion = ObtenerDuracionClip(estadoAccion);
         if (duracion > 0f)
         {
@@ -58,6 +64,9 @@ public class AnimadorLuchador : MonoBehaviour
             {
                 transform.position = posicionBloqueada;
                 tiempo += Time.deltaTime;
+
+                // yield return null significa "sigue en el siguiente frame".
+                // Asi la animacion puede avanzar sin congelar el juego.
                 yield return null;
             }
         }
@@ -74,6 +83,8 @@ public class AnimadorLuchador : MonoBehaviour
             return;
         }
 
+        // Reproduce el estado desde el inicio.
+        // El nombre debe coincidir con un estado del Animator.
         animator.Play(nombreEstado, 0, 0f);
     }
 
@@ -88,6 +99,7 @@ public class AnimadorLuchador : MonoBehaviour
 
         AnimationClip[] clips = animator.runtimeAnimatorController.animationClips;
 
+        // Primero intentamos coincidencia exacta.
         for (int i = 0; i < clips.Length; i++)
         {
             if (clips[i] != null && clips[i].name == nombreEstado)
@@ -96,6 +108,8 @@ public class AnimadorLuchador : MonoBehaviour
             }
         }
 
+        // Y si no, una busqueda mas flexible para pruebas.
+        // Por ejemplo, "basico" puede encontrar "Jotaro_basico".
         string nombreNormalizado = nombreEstado.ToLower();
         for (int i = 0; i < clips.Length; i++)
         {
