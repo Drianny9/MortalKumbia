@@ -27,12 +27,6 @@ public class DatosPersonaje : ScriptableObject
     public string estadoDefensa = "bloqueo";
     public string estadoUlti = "ulti";
 
-    [Header("Duracion de animaciones")]
-    public float duracionBasico = 0.6f;
-    public float duracionEspecial = 0.8f;
-    public float duracionDefensa = 0.5f;
-    public float duracionUlti = 1.2f;
-
     public string ObtenerTextoHabilidades()
     {
         return "1 - " + nombreBasico + "\n" +

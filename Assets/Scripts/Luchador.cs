@@ -96,32 +96,32 @@ public class Luchador : MonoBehaviour
 
     public IEnumerator ReproducirBasico()
     {
-        yield return ReproducirAccion(ObtenerEstadoBasico(), ObtenerDuracionBasico());
+        yield return ReproducirAccion(ObtenerEstadoBasico());
     }
 
     public IEnumerator ReproducirEspecial()
     {
-        yield return ReproducirAccion(ObtenerEstadoEspecial(), ObtenerDuracionEspecial());
+        yield return ReproducirAccion(ObtenerEstadoEspecial());
     }
 
     public IEnumerator ReproducirDefensa()
     {
-        yield return ReproducirAccion(ObtenerEstadoDefensa(), ObtenerDuracionDefensa());
+        yield return ReproducirAccion(ObtenerEstadoDefensa());
     }
 
     public IEnumerator ReproducirUlti()
     {
-        yield return ReproducirAccion(ObtenerEstadoUlti(), ObtenerDuracionUlti());
+        yield return ReproducirAccion(ObtenerEstadoUlti());
     }
 
-    private IEnumerator ReproducirAccion(string estado, float duracion)
+    private IEnumerator ReproducirAccion(string estado)
     {
         if (animadorLuchador == null)
         {
             yield break;
         }
 
-        yield return animadorLuchador.ReproducirAccion(estado, duracion);
+        yield return animadorLuchador.ReproducirAccion(estado);
     }
 
     private string ObtenerEstadoBasico()
@@ -163,26 +163,6 @@ public class Luchador : MonoBehaviour
         }
 
         return respaldo;
-    }
-
-    private float ObtenerDuracionBasico()
-    {
-        return datosPersonaje != null ? datosPersonaje.duracionBasico : 0.6f;
-    }
-
-    private float ObtenerDuracionEspecial()
-    {
-        return datosPersonaje != null ? datosPersonaje.duracionEspecial : 0.8f;
-    }
-
-    private float ObtenerDuracionDefensa()
-    {
-        return datosPersonaje != null ? datosPersonaje.duracionDefensa : 0.5f;
-    }
-
-    private float ObtenerDuracionUlti()
-    {
-        return datosPersonaje != null ? datosPersonaje.duracionUlti : 1.2f;
     }
 
     private void Derrota()

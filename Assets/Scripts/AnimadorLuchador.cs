@@ -9,11 +9,22 @@ public class AnimadorLuchador : MonoBehaviour
     [Header("Estado por defecto")]
     public string estadoIdle = "idle";
 
+    private bool bloquearPosicion;
+    private Vector3 posicionBloqueada;
+
     void Awake()
     {
         if (animator == null)
         {
             animator = GetComponent<Animator>();
+        }
+    }
+
+    void LateUpdate()
+    {
+        if (bloquearPosicion)
+        {
+            transform.position = posicionBloqueada;
         }
     }
 
@@ -32,15 +43,27 @@ public class AnimadorLuchador : MonoBehaviour
         ReproducirEstado(estadoIdle);
     }
 
-    public IEnumerator ReproducirAccion(string estadoAccion, float duracion)
+    public IEnumerator ReproducirAccion(string estadoAccion)
     {
+        posicionBloqueada = transform.position;
+        bloquearPosicion = true;
+
         ReproducirEstado(estadoAccion);
 
+        float duracion = ObtenerDuracionClip(estadoAccion);
         if (duracion > 0f)
         {
-            yield return new WaitForSeconds(duracion);
+            float tiempo = 0f;
+            while (tiempo < duracion)
+            {
+                transform.position = posicionBloqueada;
+                tiempo += Time.deltaTime;
+                yield return null;
+            }
         }
 
+        bloquearPosicion = false;
+        transform.position = posicionBloqueada;
         ReproducirIdle();
     }
 
@@ -52,5 +75,36 @@ public class AnimadorLuchador : MonoBehaviour
         }
 
         animator.Play(nombreEstado, 0, 0f);
+    }
+
+    private float ObtenerDuracionClip(string nombreEstado)
+    {
+        if (animator == null ||
+            animator.runtimeAnimatorController == null ||
+            string.IsNullOrEmpty(nombreEstado))
+        {
+            return 0f;
+        }
+
+        AnimationClip[] clips = animator.runtimeAnimatorController.animationClips;
+
+        for (int i = 0; i < clips.Length; i++)
+        {
+            if (clips[i] != null && clips[i].name == nombreEstado)
+            {
+                return clips[i].length;
+            }
+        }
+
+        string nombreNormalizado = nombreEstado.ToLower();
+        for (int i = 0; i < clips.Length; i++)
+        {
+            if (clips[i] != null && clips[i].name.ToLower().Contains(nombreNormalizado))
+            {
+                return clips[i].length;
+            }
+        }
+
+        return 0f;
     }
 }
