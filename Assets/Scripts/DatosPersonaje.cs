@@ -3,6 +3,9 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "DatosPersonaje", menuName = "MortalKumbia/Datos Personaje")]
 public class DatosPersonaje : ScriptableObject
 {
+    // Este asset es la ficha del personaje.
+    // Asi no hace falta crear un script distinto para cada luchador.
+
     [Header("Identidad")]
     public string nombrePersonaje = "Personaje";
     public GameObject prefabPersonaje;

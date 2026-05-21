@@ -21,7 +21,7 @@ public class GestorCombate : MonoBehaviour
     [Header("Estado")]
     public EstadoJuego estadoActual;
 
-    [Header("Dano antiguo de respaldo")]
+    [Header("Dano por defecto")]
     public float danoBasico = 10f;
     public float danoEspecial = 20f;
     public float danoUlti = 50f;
@@ -47,8 +47,7 @@ public class GestorCombate : MonoBehaviour
     private bool defensaP1;
     private bool defensaP2;
 
-    // Mientras esto esta activo no dejamos pulsar otro ataque.
-    // Asi la animacion termina antes de cambiar de turno o recibir otro input.
+    // Evita que se pueda pulsar otra accion mientras una animacion esta en marcha.
     private bool accionEnCurso;
 
     void Start()
@@ -98,9 +97,7 @@ public class GestorCombate : MonoBehaviour
     {
         if (PuedeActuar())
         {
-            // StartCoroutine permite que el ataque espere a que acabe la animacion.
-            // Si llamasemos a un metodo normal, el dano se aplicaria al instante.
-            StartCoroutine(EjecutarAtaque(TipoAccion.Basico));
+            StartCoroutine(EjecutarBasico());
         }
     }
 
@@ -117,7 +114,7 @@ public class GestorCombate : MonoBehaviour
             return;
         }
 
-        StartCoroutine(EjecutarAtaque(TipoAccion.Especial));
+        StartCoroutine(EjecutarEspecial());
     }
 
     public void Defender()
@@ -141,7 +138,7 @@ public class GestorCombate : MonoBehaviour
             return;
         }
 
-        StartCoroutine(EjecutarAtaque(TipoAccion.Ulti));
+        StartCoroutine(EjecutarUlti());
     }
 
     public Luchador ObtenerLuchadorP1()
@@ -154,44 +151,96 @@ public class GestorCombate : MonoBehaviour
         return luchadorP2;
     }
 
-    private IEnumerator EjecutarAtaque(TipoAccion tipoAccion)
+    private IEnumerator EjecutarBasico()
     {
         accionEnCurso = true;
 
         Luchador atacante = ObtenerAtacante();
-        Luchador defensor = ObtenerDefensor();
-
-        if (atacante == null || defensor == null)
+        if (atacante == null)
         {
             accionEnCurso = false;
-
-            // yield break corta la corrutina aqui.
-            // Lo usamos porque sin atacante o defensor no hay combate que ejecutar.
             yield break;
         }
 
-        // Cada yield return espera a que el Luchador termine su animacion.
-        // Despues de esto ya calculamos dano, energia y cambio de turno.
-        if (tipoAccion == TipoAccion.Basico)
+        yield return atacante.ReproducirBasico();
+
+        AplicarAtaque(atacante, ObtenerDefensor(), ObtenerDanoBasico(atacante));
+    }
+
+    private IEnumerator EjecutarEspecial()
+    {
+        accionEnCurso = true;
+
+        Luchador atacante = ObtenerAtacante();
+        if (atacante == null)
         {
-            yield return atacante.ReproducirBasico();
-        }
-        else if (tipoAccion == TipoAccion.Especial)
-        {
-            CambiarEnergiaAtacante(-costeEnergiaEspecial);
-            yield return atacante.ReproducirEspecial();
-        }
-        else if (tipoAccion == TipoAccion.Ulti)
-        {
-            CambiarEnergiaAtacante(-energiaMaxima);
-            yield return atacante.ReproducirUlti();
+            accionEnCurso = false;
+            yield break;
         }
 
-        float danoFinal = ObtenerDano(atacante, tipoAccion);
+        CambiarEnergiaAtacante(-costeEnergiaEspecial);
+        yield return atacante.ReproducirEspecial();
+
+        AplicarAtaque(atacante, ObtenerDefensor(), ObtenerDanoEspecial(atacante));
+    }
+
+    private IEnumerator EjecutarUlti()
+    {
+        accionEnCurso = true;
+
+        Luchador atacante = ObtenerAtacante();
+        if (atacante == null)
+        {
+            accionEnCurso = false;
+            yield break;
+        }
+
+        CambiarEnergiaAtacante(-energiaMaxima);
+        yield return atacante.ReproducirUlti();
+
+        AplicarAtaque(atacante, ObtenerDefensor(), ObtenerDanoUlti(atacante));
+    }
+
+    private IEnumerator EjecutarDefensa()
+    {
+        accionEnCurso = true;
+
+        Luchador luchadorActual = ObtenerAtacante();
+        if (luchadorActual == null)
+        {
+            accionEnCurso = false;
+            yield break;
+        }
+
+        if (estadoActual == EstadoJuego.TURNO_P1)
+        {
+            defensaP1 = true;
+            Debug.Log("Jugador 1 usa pose defensiva.");
+        }
+        else
+        {
+            defensaP2 = true;
+            Debug.Log("Jugador 2 usa pose defensiva.");
+        }
+
+        yield return luchadorActual.ReproducirDefensa();
+
+        FinalizarTurno();
+        accionEnCurso = false;
+    }
+
+    private void AplicarAtaque(Luchador atacante, Luchador defensor, float dano)
+    {
+        if (atacante == null || defensor == null)
+        {
+            accionEnCurso = false;
+            return;
+        }
+
+        float danoFinal = dano;
 
         if (DefensorEstaDefendiendo())
         {
-            // La defensa solo protege contra el siguiente golpe recibido.
             danoFinal *= multiplicadorDefensa;
             QuitarDefensaDefensor();
         }
@@ -211,9 +260,7 @@ public class GestorCombate : MonoBehaviour
             {
                 TerminarCombate(defensorEsP1 ? 2 : 1);
                 accionEnCurso = false;
-
-                // No cambiamos turno si la partida ya ha terminado.
-                yield break;
+                return;
             }
         }
 
@@ -221,38 +268,9 @@ public class GestorCombate : MonoBehaviour
         accionEnCurso = false;
     }
 
-    private IEnumerator EjecutarDefensa()
-    {
-        accionEnCurso = true;
-
-        Luchador atacante = ObtenerAtacante();
-        if (atacante == null)
-        {
-            accionEnCurso = false;
-            yield break;
-        }
-
-        if (estadoActual == EstadoJuego.TURNO_P1)
-        {
-            defensaP1 = true;
-            Debug.Log("Jugador 1 usa pose defensiva.");
-        }
-        else
-        {
-            defensaP2 = true;
-            Debug.Log("Jugador 2 usa pose defensiva.");
-        }
-
-        yield return atacante.ReproducirDefensa();
-
-        FinalizarTurno();
-        accionEnCurso = false;
-    }
-
     private void PrepararEquipos()
     {
-        // Si venimos del selector usamos esos equipos.
-        // Si abrimos EscenaCombate directamente en Unity, usamos los equipos por defecto.
+        // Si venimos del selector usamos sus equipos. Si no, usamos lo puesto en el Inspector.
         if (DatosSeleccionCombate.HaySeleccionCompleta)
         {
             equipoP1 = DatosSeleccionCombate.equipoP1;
@@ -270,9 +288,7 @@ public class GestorCombate : MonoBehaviour
         indiceP1 = 0;
         indiceP2 = 0;
 
-        // Si hay datos de equipo, instanciamos personajes desde prefab.
-        // Si todavia estas probando con P1/P2 puestos a mano, los respetamos.
-        if (EquipoTieneDatos(equipoP1))
+        if (EquipoTienePersonajeEnIndice(equipoP1, indiceP1))
         {
             luchadorP1 = InstanciarLuchador(equipoP1[indiceP1], spawnP1, false, luchadorP1);
         }
@@ -281,7 +297,7 @@ public class GestorCombate : MonoBehaviour
             luchadorP1.Inicializar(luchadorP1.datosPersonaje);
         }
 
-        if (EquipoTieneDatos(equipoP2))
+        if (EquipoTienePersonajeEnIndice(equipoP2, indiceP2))
         {
             luchadorP2 = InstanciarLuchador(equipoP2[indiceP2], spawnP2, invertirP2, luchadorP2);
         }
@@ -302,7 +318,6 @@ public class GestorCombate : MonoBehaviour
                 return false;
             }
 
-            // El personaje anterior ya murio: lo quitamos y ponemos el siguiente del equipo.
             DestruirLuchadorSeguro(luchadorP1);
             energiaP1 = energiaInicial;
             defensaP1 = false;
@@ -344,7 +359,6 @@ public class GestorCombate : MonoBehaviour
 
         if (invertir)
         {
-            // P2 mira hacia la izquierda. Por eso invertimos la escala en X.
             Vector3 escala = instancia.transform.localScale;
             escala.x = -Mathf.Abs(escala.x);
             instancia.transform.localScale = escala;
@@ -380,30 +394,24 @@ public class GestorCombate : MonoBehaviour
 
     private bool PuedeActuar()
     {
-        // Esta es la puerta de entrada para cualquier boton/tecla de accion.
         return estadoActual != EstadoJuego.FIN_COMBATE &&
                !accionEnCurso &&
                luchadorP1 != null &&
                luchadorP2 != null;
     }
 
-    private float ObtenerDano(Luchador atacante, TipoAccion tipoAccion)
+    private float ObtenerDanoBasico(Luchador atacante)
     {
-        if (atacante == null)
-        {
-            return 0f;
-        }
+        return atacante.danoBasico > 0f ? atacante.danoBasico : danoBasico;
+    }
 
-        if (tipoAccion == TipoAccion.Basico)
-        {
-            return atacante.danoBasico > 0f ? atacante.danoBasico : danoBasico;
-        }
+    private float ObtenerDanoEspecial(Luchador atacante)
+    {
+        return atacante.danoEspecial > 0f ? atacante.danoEspecial : danoEspecial;
+    }
 
-        if (tipoAccion == TipoAccion.Especial)
-        {
-            return atacante.danoEspecial > 0f ? atacante.danoEspecial : danoEspecial;
-        }
-
+    private float ObtenerDanoUlti(Luchador atacante)
+    {
         return atacante.danoUlti > 0f ? atacante.danoUlti : danoUlti;
     }
 
@@ -488,23 +496,11 @@ public class GestorCombate : MonoBehaviour
         }
     }
 
-    private bool EquipoTieneDatos(DatosPersonaje[] equipo)
-    {
-        return EquipoTienePersonajeEnIndice(equipo, 0);
-    }
-
     private bool EquipoTienePersonajeEnIndice(DatosPersonaje[] equipo, int indice)
     {
         return equipo != null &&
                indice >= 0 &&
                indice < equipo.Length &&
                equipo[indice] != null;
-    }
-
-    private enum TipoAccion
-    {
-        Basico,
-        Especial,
-        Ulti
     }
 }

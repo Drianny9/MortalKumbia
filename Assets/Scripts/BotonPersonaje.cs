@@ -16,6 +16,7 @@ public class BotonPersonaje : MonoBehaviour
 
         if (seleccionPersonajes == null)
         {
+            // Si no lo hemos puesto en el Inspector, busca el selector de la escena.
             seleccionPersonajes = FindObjectOfType<SeleccionPersonajes>();
         }
     }
@@ -32,6 +33,7 @@ public class BotonPersonaje : MonoBehaviour
 
     public void Seleccionar()
     {
+        // Este metodo es lo que se ejecuta al pulsar la carta/boton del personaje.
         if (seleccionPersonajes != null && datosPersonaje != null)
         {
             seleccionPersonajes.SeleccionarPersonaje(datosPersonaje);
