@@ -32,6 +32,7 @@ public class GestorCombate : MonoBehaviour
     public float energiaPorTurno = 10f;
     public float energiaPorAtacar = 15f;
     public float energiaPorRecibirDano = 15f;
+    public float costeEnergiaEspecial = 35f;
 
     [Header("Defensa")]
     public float multiplicadorDefensa = 0.5f;
@@ -105,10 +106,18 @@ public class GestorCombate : MonoBehaviour
 
     public void PasoEspecial()
     {
-        if (PuedeActuar())
+        if (!PuedeActuar())
         {
-            StartCoroutine(EjecutarAtaque(TipoAccion.Especial));
+            return;
         }
+
+        if (ObtenerEnergiaAtacante() < costeEnergiaEspecial)
+        {
+            Debug.Log("No tienes suficiente energia para usar el ataque especial.");
+            return;
+        }
+
+        StartCoroutine(EjecutarAtaque(TipoAccion.Especial));
     }
 
     public void Defender()
@@ -169,6 +178,7 @@ public class GestorCombate : MonoBehaviour
         }
         else if (tipoAccion == TipoAccion.Especial)
         {
+            CambiarEnergiaAtacante(-costeEnergiaEspecial);
             yield return atacante.ReproducirEspecial();
         }
         else if (tipoAccion == TipoAccion.Ulti)
