@@ -32,7 +32,7 @@ public class GestorCombate : MonoBehaviour
     public float energiaPorTurno = 10f;
     public float energiaPorAtacar = 15f;
     public float energiaPorRecibirDano = 15f;
-    public float costeEnergiaEspecial = 35f;
+    public float costeEnergiaEspecial = 25f;
 
     [Header("Defensa")]
     public float multiplicadorDefensa = 0.5f;
