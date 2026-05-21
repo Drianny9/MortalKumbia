@@ -34,6 +34,7 @@ public class InterfazCombate : MonoBehaviour
     {
         //actualizar la interfaz todo el rato para ver la vida y energia actual
         ActualizarInterfaz();
+        ConfigurarTextosHabilidades();
     }
 
     public void BotonPasoBasico()
@@ -73,13 +74,13 @@ public class InterfazCombate : MonoBehaviour
         }
 
         //poner la vida maxima del jugador 1 en su barra
-        if (barraVidaP1 != null)
+        if (barraVidaP1 != null && gestorCombate.luchadorP1 != null)
         {
             barraVidaP1.maxValue = gestorCombate.luchadorP1.vidaMaxima;
         }
 
         //poner la vida maxima del jugador 2 en su barra
-        if (barraVidaP2 != null)
+        if (barraVidaP2 != null && gestorCombate.luchadorP2 != null)
         {
             barraVidaP2.maxValue = gestorCombate.luchadorP2.vidaMaxima;
         }
@@ -105,6 +106,7 @@ public class InterfazCombate : MonoBehaviour
             return;
         }
 
+        ConfigurarBarras();
         ActualizarVida();
         ActualizarEnergia();
         ActualizarTurno();
@@ -113,20 +115,25 @@ public class InterfazCombate : MonoBehaviour
     private void ConfigurarTextosHabilidades()
     {
         //poner las habilidades iniciales del jugador 1
-        if (textoHabilidadesP1 != null)
+        if (textoHabilidadesP1 != null && gestorCombate != null && gestorCombate.luchadorP1 != null)
         {
-            textoHabilidadesP1.text = "1 - Paso basico\n2 - Paso fuerte\n3 - Defensa\n4 - Ulti";
+            textoHabilidadesP1.text = gestorCombate.luchadorP1.ObtenerTextoHabilidades();
         }
 
         //poner las habilidades iniciales del jugador 2
-        if (textoHabilidadesP2 != null)
+        if (textoHabilidadesP2 != null && gestorCombate != null && gestorCombate.luchadorP2 != null)
         {
-            textoHabilidadesP2.text = "1 - Paso basico\n2 - Paso fuerte\n3 - Defensa\n4 - Ulti";
+            textoHabilidadesP2.text = gestorCombate.luchadorP2.ObtenerTextoHabilidades();
         }
     }
 
     private void ActualizarVida()
     {
+        if (gestorCombate.luchadorP1 == null || gestorCombate.luchadorP2 == null)
+        {
+            return;
+        }
+
         float vidaP1 = gestorCombate.luchadorP1.vidaActual;
         float vidaP2 = gestorCombate.luchadorP2.vidaActual;
 

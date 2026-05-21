@@ -266,7 +266,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GestorCombate
   luchadorP1: {fileID: 696530741}
-  luchadorP2: {fileID: 0}
+  luchadorP2: {fileID: 1850742663}
   estadoActual: 0
   danoBasico: 10
   danoEspecial: 25
@@ -918,10 +918,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InterfazCombate
   gestorCombate: {fileID: 360418315}
-  barraVidaP1: {fileID: 0}
-  barraVidaP2: {fileID: 0}
-  barraEnergiaP1: {fileID: 0}
-  barraEnergiaP2: {fileID: 0}
+  barraVidaP1: {fileID: 1461097178}
+  barraVidaP2: {fileID: 1617370303}
+  barraEnergiaP1: {fileID: 2046227390}
+  barraEnergiaP2: {fileID: 2066679441}
   textoTurno: {fileID: 0}
   textoMensaje: {fileID: 0}
   textoHabilidadesP1: {fileID: 1579168415}
