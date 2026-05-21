@@ -14,10 +14,6 @@ public class InterfazCombate : MonoBehaviour
     public Slider barraEnergiaP2;
 
     [Header("Textos")]
-    public Text textoVidaP1;
-    public Text textoVidaP2;
-    public Text textoEnergiaP1;
-    public Text textoEnergiaP2;
     public Text textoTurno;
     public Text textoMensaje;
     public Text textoHabilidadesP1;
@@ -145,18 +141,6 @@ public class InterfazCombate : MonoBehaviour
         {
             barraVidaP2.value = vidaP2;
         }
-
-        //actualizar el texto de vida del jugador 1
-        if (textoVidaP1 != null)
-        {
-            textoVidaP1.text = vidaP1.ToString("0");
-        }
-
-        //actualizar el texto de vida del jugador 2
-        if (textoVidaP2 != null)
-        {
-            textoVidaP2.text = vidaP2.ToString("0");
-        }
     }
 
     private void ActualizarEnergia()
@@ -171,18 +155,6 @@ public class InterfazCombate : MonoBehaviour
         if (barraEnergiaP2 != null)
         {
             barraEnergiaP2.value = gestorCombate.energiaP2;
-        }
-
-        //actualizar el texto de energia del jugador 1
-        if (textoEnergiaP1 != null)
-        {
-            textoEnergiaP1.text = gestorCombate.energiaP1.ToString("0");
-        }
-
-        //actualizar el texto de energia del jugador 2
-        if (textoEnergiaP2 != null)
-        {
-            textoEnergiaP2.text = gestorCombate.energiaP2.ToString("0");
         }
     }
 
