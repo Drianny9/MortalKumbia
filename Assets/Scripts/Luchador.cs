@@ -64,6 +64,11 @@ public class Luchador : MonoBehaviour
 
         if (animadorLuchador != null)
         {
+            if (datosPersonaje == null)
+            {
+                animadorLuchador.estadoIdle = BuscarEstadoAnimacion("idle", "idle");
+            }
+
             animadorLuchador.Configurar(datosPersonaje);
         }
     }
@@ -121,22 +126,43 @@ public class Luchador : MonoBehaviour
 
     private string ObtenerEstadoBasico()
     {
-        return datosPersonaje != null ? datosPersonaje.estadoBasico : "basico";
+        return datosPersonaje != null ? datosPersonaje.estadoBasico : BuscarEstadoAnimacion("basico", "basico");
     }
 
     private string ObtenerEstadoEspecial()
     {
-        return datosPersonaje != null ? datosPersonaje.estadoEspecial : "especial";
+        return datosPersonaje != null ? datosPersonaje.estadoEspecial : BuscarEstadoAnimacion("especial", "especial");
     }
 
     private string ObtenerEstadoDefensa()
     {
-        return datosPersonaje != null ? datosPersonaje.estadoDefensa : "bloqueo";
+        return datosPersonaje != null ? datosPersonaje.estadoDefensa : BuscarEstadoAnimacion("bloqueo", "bloqueo");
     }
 
     private string ObtenerEstadoUlti()
     {
-        return datosPersonaje != null ? datosPersonaje.estadoUlti : "ulti";
+        return datosPersonaje != null ? datosPersonaje.estadoUlti : BuscarEstadoAnimacion("ulti", "ulti");
+    }
+
+    private string BuscarEstadoAnimacion(string textoBuscado, string respaldo)
+    {
+        if (animadorLuchador == null ||
+            animadorLuchador.animator == null ||
+            animadorLuchador.animator.runtimeAnimatorController == null)
+        {
+            return respaldo;
+        }
+
+        AnimationClip[] clips = animadorLuchador.animator.runtimeAnimatorController.animationClips;
+        for (int i = 0; i < clips.Length; i++)
+        {
+            if (clips[i] != null && clips[i].name.ToLower().Contains(textoBuscado))
+            {
+                return clips[i].name;
+            }
+        }
+
+        return respaldo;
     }
 
     private float ObtenerDuracionBasico()
