@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class BotonPersonaje : MonoBehaviour, ISelectHandler, IPointerEnterHandler, ISubmitHandler
+public class BotonPersonaje : MonoBehaviour, ISelectHandler, IPointerEnterHandler
 {
     public DatosPersonaje datosPersonaje;
     public SeleccionPersonajes seleccionPersonajes;
@@ -68,10 +68,6 @@ public class BotonPersonaje : MonoBehaviour, ISelectHandler, IPointerEnterHandle
         AvisarFoco();
     }
 
-    public void OnSubmit(BaseEventData eventData)
-    {
-        Seleccionar();
-    }
 
     private void AvisarFoco()
     {

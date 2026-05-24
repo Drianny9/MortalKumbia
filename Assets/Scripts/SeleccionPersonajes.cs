@@ -20,6 +20,7 @@ public class SeleccionPersonajes : MonoBehaviour
     private readonly List<DatosPersonaje> equipoP1 = new List<DatosPersonaje>();
     private readonly List<DatosPersonaje> equipoP2 = new List<DatosPersonaje>();
     private int jugadorActual = 1;
+    private int ultimoFrameSeleccion = -1;
 
     void Start()
     {
@@ -36,6 +37,14 @@ public class SeleccionPersonajes : MonoBehaviour
 
     public void SeleccionarPersonaje(DatosPersonaje datosPersonaje)
     {
+        // Evita que una misma pulsacion de boton cuente dos veces.
+        if (ultimoFrameSeleccion == Time.frameCount)
+        {
+            return;
+        }
+
+        ultimoFrameSeleccion = Time.frameCount;
+
         if (!PuedeSeleccionar(datosPersonaje))
         {
             ActualizarTextoEstado();
