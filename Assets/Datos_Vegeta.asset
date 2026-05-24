@@ -23,8 +23,8 @@ MonoBehaviour:
   nombreEspecial: Paso fuerte
   nombreDefensa: Defensa
   nombreUlti: Ulti
-  estadoIdle: idle
-  estadoBasico: basico
-  estadoEspecial: especial
-  estadoDefensa: bloqueo
-  estadoUlti: ulti
+  estadoIdle: vegeta_idle
+  estadoBasico: vegeta_basico
+  estadoEspecial: vegeta_especial
+  estadoDefensa: vegeta_bloqueo
+  estadoUlti: vegeta_ulti

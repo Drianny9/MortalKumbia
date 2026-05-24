@@ -26,5 +26,5 @@ MonoBehaviour:
   estadoIdle: Jotaro_idle
   estadoBasico: Jotaro_basico
   estadoEspecial: Jotaro_especial
-  estadoDefensa: Jotaro_defensa
-  estadoUlti: Jotaro_ulti
+  estadoDefensa: jotaro_bloqueo
+  estadoUlti: jotaro_ulti

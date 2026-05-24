@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Datos_Muzan
   m_EditorClassIdentifier: Assembly-CSharp::DatosPersonaje
   nombrePersonaje: Muzan
-  prefabPersonaje: {fileID: 0}
+  prefabPersonaje: {fileID: 7104000000000000001, guid: 0d9b7227232941d48b5ac0f1a7d1c104, type: 3}
   iconoSelector: {fileID: 21300000, guid: afdfbb6196308014f8d860973259e4f2, type: 3}
   vidaMaxima: 100
   danoBasico: 10
@@ -23,8 +23,8 @@ MonoBehaviour:
   nombreEspecial: Paso fuerte
   nombreDefensa: Defensa
   nombreUlti: Ulti
-  estadoIdle: idle
-  estadoBasico: basico
-  estadoEspecial: especial
-  estadoDefensa: bloqueo
-  estadoUlti: ulti
+  estadoIdle: muzan_idle
+  estadoBasico: muzan_basico
+  estadoEspecial: muzan_especial
+  estadoDefensa: muzan_bloqueo
+  estadoUlti: muzan_ulti

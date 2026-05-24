@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Datos_Guts
   m_EditorClassIdentifier: Assembly-CSharp::DatosPersonaje
   nombrePersonaje: Guts
-  prefabPersonaje: {fileID: 0}
+  prefabPersonaje: {fileID: 7103000000000000001, guid: 0d9b7227232941d48b5ac0f1a7d1c103, type: 3}
   iconoSelector: {fileID: 21300000, guid: 1fd54f43ab3417a4d84b80d2bb3f5b27, type: 3}
   vidaMaxima: 100
   danoBasico: 10
@@ -23,8 +23,8 @@ MonoBehaviour:
   nombreEspecial: Paso fuerte
   nombreDefensa: Defensa
   nombreUlti: Ulti
-  estadoIdle: idle
-  estadoBasico: basico
-  estadoEspecial: especial
-  estadoDefensa: bloqueo
-  estadoUlti: ulti
+  estadoIdle: guts_idle
+  estadoBasico: guts_basico
+  estadoEspecial: guts_especial
+  estadoDefensa: guts_bloqueo
+  estadoUlti: guts_ulti

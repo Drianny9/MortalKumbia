@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Datos_Gojo
   m_EditorClassIdentifier: Assembly-CSharp::DatosPersonaje
   nombrePersonaje: Gojo
-  prefabPersonaje: {fileID: 0}
+  prefabPersonaje: {fileID: 7102000000000000001, guid: 0d9b7227232941d48b5ac0f1a7d1c102, type: 3}
   iconoSelector: {fileID: 5384357724569688987, guid: 2735c5e1e6270ec40a1b73eaa8ff3d02, type: 3}
   vidaMaxima: 100
   danoBasico: 10
@@ -23,8 +23,8 @@ MonoBehaviour:
   nombreEspecial: Paso fuerte
   nombreDefensa: Defensa
   nombreUlti: Ulti
-  estadoIdle: idle
-  estadoBasico: basico
-  estadoEspecial: especial
-  estadoDefensa: bloqueo
-  estadoUlti: ulti
+  estadoIdle: gojo_idle
+  estadoBasico: gojo_basico
+  estadoEspecial: gojo_especial
+  estadoDefensa: gojo_proteccion
+  estadoUlti: gojo_ulti
