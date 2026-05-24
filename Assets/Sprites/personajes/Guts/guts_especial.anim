@@ -18,7 +18,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 2
+        time: 1
         value: {x: 0, y: 0, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
@@ -38,11 +38,11 @@ AnimationClip:
     curve:
     - time: 0
       value: {fileID: 4826067939210111087, guid: e2464389994be3b4bbc77d889d037550, type: 3}
-    - time: 0.5
+    - time: 0.25
       value: {fileID: -1283624438296898299, guid: e2464389994be3b4bbc77d889d037550, type: 3}
-    - time: 1
+    - time: 0.5
       value: {fileID: -1880764151490200509, guid: e2464389994be3b4bbc77d889d037550, type: 3}
-    - time: 1.5
+    - time: 0.75
       value: {fileID: -4550154835748441889, guid: e2464389994be3b4bbc77d889d037550, type: 3}
     attribute: m_Sprite
     path: 
@@ -84,7 +84,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 2
+    m_StopTime: 1
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -105,7 +105,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 2
+        time: 1
         value: 0
         inSlope: 0
         outSlope: 0
@@ -126,7 +126,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 2
+        time: 1
         value: 0
         inSlope: 0
         outSlope: 0
@@ -147,7 +147,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 2
+        time: 1
         value: 0
         inSlope: 0
         outSlope: 0
