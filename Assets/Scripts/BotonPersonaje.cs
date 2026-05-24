@@ -1,7 +1,8 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class BotonPersonaje : MonoBehaviour
+public class BotonPersonaje : MonoBehaviour, ISelectHandler, IPointerEnterHandler, ISubmitHandler
 {
     public DatosPersonaje datosPersonaje;
     public SeleccionPersonajes seleccionPersonajes;
@@ -16,27 +17,67 @@ public class BotonPersonaje : MonoBehaviour
 
         if (seleccionPersonajes == null)
         {
-            // Si no lo hemos puesto en el Inspector, busca el selector de la escena.
             seleccionPersonajes = FindObjectOfType<SeleccionPersonajes>();
+        }
+
+        if (boton != null)
+        {
+            boton.onClick.AddListener(Seleccionar);
+            boton.transition = Selectable.Transition.None;
         }
     }
 
     void Start()
     {
         ActualizarVista();
-
-        if (boton != null)
-        {
-            boton.onClick.AddListener(Seleccionar);
-        }
     }
 
     public void Seleccionar()
     {
-        // Este metodo es lo que se ejecuta al pulsar la carta/boton del personaje.
-        if (seleccionPersonajes != null && datosPersonaje != null)
+        if (seleccionPersonajes != null && seleccionPersonajes.PuedeSeleccionar(datosPersonaje))
         {
             seleccionPersonajes.SeleccionarPersonaje(datosPersonaje);
+        }
+    }
+
+    public void ActualizarInteractividad(bool puedeSeleccionar)
+    {
+        if (boton == null)
+        {
+            boton = GetComponent<Button>();
+        }
+
+        if (boton != null)
+        {
+            boton.interactable = puedeSeleccionar;
+        }
+    }
+
+    public void OnSelect(BaseEventData eventData)
+    {
+        AvisarFoco();
+    }
+
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+        if (EventSystem.current != null)
+        {
+            EventSystem.current.SetSelectedGameObject(gameObject);
+        }
+
+        AvisarFoco();
+    }
+
+    public void OnSubmit(BaseEventData eventData)
+    {
+        Seleccionar();
+    }
+
+    private void AvisarFoco()
+    {
+        if (seleccionPersonajes != null)
+        {
+            seleccionPersonajes.NotificarFoco(this);
         }
     }
 
@@ -50,6 +91,8 @@ public class BotonPersonaje : MonoBehaviour
         if (imagenIcono != null)
         {
             imagenIcono.sprite = datosPersonaje.iconoSelector;
+            imagenIcono.color = Color.white;
+            imagenIcono.preserveAspect = true;
         }
 
         if (textoNombre != null)

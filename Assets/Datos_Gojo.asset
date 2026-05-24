@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5632392af3d7427a81edd577a1624748, type: 3}
   m_Name: Datos_Gojo
   m_EditorClassIdentifier: Assembly-CSharp::DatosPersonaje
-  nombrePersonaje: Personaje
+  nombrePersonaje: Gojo
   prefabPersonaje: {fileID: 0}
-  iconoSelector: {fileID: 0}
+  iconoSelector: {fileID: 5384357724569688987, guid: 2735c5e1e6270ec40a1b73eaa8ff3d02, type: 3}
   vidaMaxima: 100
   danoBasico: 10
   danoEspecial: 20

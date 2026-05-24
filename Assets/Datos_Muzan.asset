@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5632392af3d7427a81edd577a1624748, type: 3}
   m_Name: Datos_Muzan
   m_EditorClassIdentifier: Assembly-CSharp::DatosPersonaje
-  nombrePersonaje: Personaje
+  nombrePersonaje: Muzan
   prefabPersonaje: {fileID: 0}
-  iconoSelector: {fileID: 0}
+  iconoSelector: {fileID: 21300000, guid: afdfbb6196308014f8d860973259e4f2, type: 3}
   vidaMaxima: 100
   danoBasico: 10
   danoEspecial: 20
