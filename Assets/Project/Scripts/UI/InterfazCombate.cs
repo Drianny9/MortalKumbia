@@ -1,5 +1,7 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
+
 public class InterfazCombate : MonoBehaviour
 {
     [Header("Referencias")]
@@ -19,79 +21,171 @@ public class InterfazCombate : MonoBehaviour
     public Text textoHabilidadesP1;
     public Text textoHabilidadesP2;
 
+    [Header("Teclas Jugador 1")]
+    public Image tecla1P1;
+    public Image tecla2P1;
+    public Image tecla3P1;
+    public Image tecla4P1;
+
+    [Header("Teclas Jugador 2")]
+    public Image tecla1P2;
+    public Image tecla2P2;
+    public Image tecla3P2;
+    public Image tecla4P2;
+
+    [Header("Sprites Teclas")]
+    public Sprite tecla1Normal;
+    public Sprite tecla1Pulsada;
+    public Sprite tecla2Normal;
+    public Sprite tecla2Pulsada;
+    public Sprite tecla3Normal;
+    public Sprite tecla3Pulsada;
+    public Sprite tecla4Normal;
+    public Sprite tecla4Pulsada;
+
+    [Header("Animacion Teclas")]
+    public float tiempoTeclaPulsada = 0.12f;
+
     void Start()
     {
-        //configurar las barras al empezar para que tengan los valores maximos bien
         ConfigurarBarras();
-
-        //actualizar la interfaz nada mas empezar la partida
+        ConfigurarTeclasNormales();
         ActualizarInterfaz();
-        //configurar los textos de habilidades de cada jugador
         ConfigurarTextosHabilidades();
     }
 
     void Update()
     {
-        //actualizar la interfaz todo el rato para ver la vida y energia actual
         ActualizarInterfaz();
         ConfigurarTextosHabilidades();
+        DetectarTeclasPulsadas();
     }
 
     public void BotonPasoBasico()
     {
-        //usar este metodo desde el boton del ataque basico
+        AnimarTecla(1);
         gestorCombate.PasoBasico();
         MostrarMensaje("Paso basico");
     }
 
     public void BotonPasoEspecial()
     {
-        //usar este metodo desde el boton del ataque especial
+        AnimarTecla(2);
         gestorCombate.PasoEspecial();
         MostrarMensaje("Paso especial");
     }
 
     public void BotonDefender()
     {
-        //usar este metodo desde el boton de defensa
+        AnimarTecla(3);
         gestorCombate.Defender();
         MostrarMensaje("Defensa");
     }
 
     public void BotonUlti()
     {
-        //usar este metodo desde el boton de la ulti
+        AnimarTecla(4);
         gestorCombate.UsarUlti();
         MostrarMensaje("Subidon de Kumbia");
     }
 
+    private void DetectarTeclasPulsadas()
+    {
+        if (Input.GetKeyDown(KeyCode.Alpha1) || Input.GetKeyDown(KeyCode.Keypad1))
+        {
+            AnimarTecla(1);
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha2) || Input.GetKeyDown(KeyCode.Keypad2))
+        {
+            AnimarTecla(2);
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha3) || Input.GetKeyDown(KeyCode.Keypad3))
+        {
+            AnimarTecla(3);
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha4) || Input.GetKeyDown(KeyCode.Keypad4))
+        {
+            AnimarTecla(4);
+        }
+    }
+
+    private void AnimarTecla(int numeroTecla)
+    {
+        if (numeroTecla == 1)
+        {
+            StartCoroutine(AnimarImagenTecla(tecla1P1, tecla1P2, tecla1Normal, tecla1Pulsada));
+        }
+        else if (numeroTecla == 2)
+        {
+            StartCoroutine(AnimarImagenTecla(tecla2P1, tecla2P2, tecla2Normal, tecla2Pulsada));
+        }
+        else if (numeroTecla == 3)
+        {
+            StartCoroutine(AnimarImagenTecla(tecla3P1, tecla3P2, tecla3Normal, tecla3Pulsada));
+        }
+        else if (numeroTecla == 4)
+        {
+            StartCoroutine(AnimarImagenTecla(tecla4P1, tecla4P2, tecla4Normal, tecla4Pulsada));
+        }
+    }
+
+    private IEnumerator AnimarImagenTecla(Image imagenP1, Image imagenP2, Sprite spriteNormal, Sprite spritePulsada)
+    {
+        PonerSprite(imagenP1, spritePulsada);
+        PonerSprite(imagenP2, spritePulsada);
+
+        yield return new WaitForSeconds(tiempoTeclaPulsada);
+
+        PonerSprite(imagenP1, spriteNormal);
+        PonerSprite(imagenP2, spriteNormal);
+    }
+
+    private void ConfigurarTeclasNormales()
+    {
+        PonerSprite(tecla1P1, tecla1Normal);
+        PonerSprite(tecla1P2, tecla1Normal);
+        PonerSprite(tecla2P1, tecla2Normal);
+        PonerSprite(tecla2P2, tecla2Normal);
+        PonerSprite(tecla3P1, tecla3Normal);
+        PonerSprite(tecla3P2, tecla3Normal);
+        PonerSprite(tecla4P1, tecla4Normal);
+        PonerSprite(tecla4P2, tecla4Normal);
+    }
+
+    private void PonerSprite(Image imagen, Sprite sprite)
+    {
+        if (imagen != null && sprite != null)
+        {
+            imagen.sprite = sprite;
+            imagen.preserveAspect = true;
+        }
+    }
+
     private void ConfigurarBarras()
     {
-        //evitar errores si no esta puesto el gestor
         if (gestorCombate == null)
         {
             return;
         }
 
-        //poner la vida maxima del jugador 1 en su barra
         if (barraVidaP1 != null && gestorCombate.luchadorP1 != null)
         {
             barraVidaP1.maxValue = gestorCombate.luchadorP1.vidaMaxima;
         }
 
-        //poner la vida maxima del jugador 2 en su barra
         if (barraVidaP2 != null && gestorCombate.luchadorP2 != null)
         {
             barraVidaP2.maxValue = gestorCombate.luchadorP2.vidaMaxima;
         }
 
-        //poner la energia maxima del jugador 1
         if (barraEnergiaP1 != null)
         {
             barraEnergiaP1.maxValue = gestorCombate.energiaMaxima;
         }
 
-        //poner la energia maxima del jugador 2
         if (barraEnergiaP2 != null)
         {
             barraEnergiaP2.maxValue = gestorCombate.energiaMaxima;
@@ -100,7 +194,6 @@ public class InterfazCombate : MonoBehaviour
 
     private void ActualizarInterfaz()
     {
-        //no actualizar nada si falta el gestor
         if (gestorCombate == null)
         {
             return;
@@ -114,13 +207,11 @@ public class InterfazCombate : MonoBehaviour
 
     private void ConfigurarTextosHabilidades()
     {
-        //poner las habilidades iniciales del jugador 1
         if (textoHabilidadesP1 != null && gestorCombate != null && gestorCombate.luchadorP1 != null)
         {
             textoHabilidadesP1.text = gestorCombate.luchadorP1.ObtenerTextoHabilidades();
         }
 
-        //poner las habilidades iniciales del jugador 2
         if (textoHabilidadesP2 != null && gestorCombate != null && gestorCombate.luchadorP2 != null)
         {
             textoHabilidadesP2.text = gestorCombate.luchadorP2.ObtenerTextoHabilidades();
@@ -137,13 +228,11 @@ public class InterfazCombate : MonoBehaviour
         float vidaP1 = gestorCombate.luchadorP1.vidaActual;
         float vidaP2 = gestorCombate.luchadorP2.vidaActual;
 
-        //actualizar la barra de vida del jugador 1
         if (barraVidaP1 != null)
         {
             barraVidaP1.value = vidaP1;
         }
 
-        //actualizar la barra de vida del jugador 2
         if (barraVidaP2 != null)
         {
             barraVidaP2.value = vidaP2;
@@ -152,13 +241,11 @@ public class InterfazCombate : MonoBehaviour
 
     private void ActualizarEnergia()
     {
-        //actualizar la barra de energia del jugador 1
         if (barraEnergiaP1 != null)
         {
             barraEnergiaP1.value = gestorCombate.energiaP1;
         }
 
-        //actualizar la barra de energia del jugador 2
         if (barraEnergiaP2 != null)
         {
             barraEnergiaP2.value = gestorCombate.energiaP2;
@@ -167,13 +254,11 @@ public class InterfazCombate : MonoBehaviour
 
     private void ActualizarTurno()
     {
-        //no hacer nada si no hay texto de turno
         if (textoTurno == null)
         {
             return;
         }
 
-        //mostrar de quien es el turno
         if (gestorCombate.estadoActual == GestorCombate.EstadoJuego.TURNO_P1)
         {
             textoTurno.text = "Turno Jugador 1";
@@ -190,7 +275,6 @@ public class InterfazCombate : MonoBehaviour
 
     private void MostrarMensaje(string mensaje)
     {
-        //mostrar un mensaje corto de la accion que se acaba de usar
         if (textoMensaje != null)
         {
             textoMensaje.text = mensaje;

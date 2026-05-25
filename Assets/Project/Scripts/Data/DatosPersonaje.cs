@@ -35,9 +35,9 @@ public class DatosPersonaje : ScriptableObject
 
     public string ObtenerTextoHabilidades()
     {
-        return "1 - " + nombreBasico + "\n" +
-               "2 - " + nombreEspecial + "\n" +
-               "3 - " + nombreDefensa + "\n" +
-               "4 - " + nombreUlti;
+        return nombreBasico + "\n" +
+               nombreEspecial + "\n" +
+               nombreDefensa + "\n" +
+               nombreUlti;
     }
 }
