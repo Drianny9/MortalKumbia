@@ -21,6 +21,10 @@ public class InterfazCombate : MonoBehaviour
     public Text textoHabilidadesP1;
     public Text textoHabilidadesP2;
 
+    [Header("Ajuste Textos Habilidades")]
+    public TextAnchor alineacionHabilidades = TextAnchor.UpperLeft;
+    public float espaciadoLineasHabilidades = 1f;
+
     [Header("Teclas Jugador 1")]
     public Image tecla1P1;
     public Image tecla2P1;
@@ -49,6 +53,7 @@ public class InterfazCombate : MonoBehaviour
     void Start()
     {
         ConfigurarBarras();
+        ConfigurarEstiloTextosHabilidades();
         ConfigurarTeclasNormales();
         ActualizarInterfaz();
         ConfigurarTextosHabilidades();
@@ -57,6 +62,7 @@ public class InterfazCombate : MonoBehaviour
     void Update()
     {
         ActualizarInterfaz();
+        ConfigurarEstiloTextosHabilidades();
         ConfigurarTextosHabilidades();
         DetectarTeclasPulsadas();
     }
@@ -116,31 +122,39 @@ public class InterfazCombate : MonoBehaviour
     {
         if (numeroTecla == 1)
         {
-            StartCoroutine(AnimarImagenTecla(tecla1P1, tecla1P2, tecla1Normal, tecla1Pulsada));
+            StartCoroutine(AnimarImagenTecla(ObtenerImagenTeclaActiva(tecla1P1, tecla1P2), tecla1Normal, tecla1Pulsada));
         }
         else if (numeroTecla == 2)
         {
-            StartCoroutine(AnimarImagenTecla(tecla2P1, tecla2P2, tecla2Normal, tecla2Pulsada));
+            StartCoroutine(AnimarImagenTecla(ObtenerImagenTeclaActiva(tecla2P1, tecla2P2), tecla2Normal, tecla2Pulsada));
         }
         else if (numeroTecla == 3)
         {
-            StartCoroutine(AnimarImagenTecla(tecla3P1, tecla3P2, tecla3Normal, tecla3Pulsada));
+            StartCoroutine(AnimarImagenTecla(ObtenerImagenTeclaActiva(tecla3P1, tecla3P2), tecla3Normal, tecla3Pulsada));
         }
         else if (numeroTecla == 4)
         {
-            StartCoroutine(AnimarImagenTecla(tecla4P1, tecla4P2, tecla4Normal, tecla4Pulsada));
+            StartCoroutine(AnimarImagenTecla(ObtenerImagenTeclaActiva(tecla4P1, tecla4P2), tecla4Normal, tecla4Pulsada));
         }
     }
 
-    private IEnumerator AnimarImagenTecla(Image imagenP1, Image imagenP2, Sprite spriteNormal, Sprite spritePulsada)
+    private Image ObtenerImagenTeclaActiva(Image imagenP1, Image imagenP2)
     {
-        PonerSprite(imagenP1, spritePulsada);
-        PonerSprite(imagenP2, spritePulsada);
+        if (gestorCombate != null && gestorCombate.estadoActual == GestorCombate.EstadoJuego.TURNO_P2)
+        {
+            return imagenP2;
+        }
+
+        return imagenP1;
+    }
+
+    private IEnumerator AnimarImagenTecla(Image imagen, Sprite spriteNormal, Sprite spritePulsada)
+    {
+        PonerSprite(imagen, spritePulsada);
 
         yield return new WaitForSeconds(tiempoTeclaPulsada);
 
-        PonerSprite(imagenP1, spriteNormal);
-        PonerSprite(imagenP2, spriteNormal);
+        PonerSprite(imagen, spriteNormal);
     }
 
     private void ConfigurarTeclasNormales()
@@ -205,6 +219,24 @@ public class InterfazCombate : MonoBehaviour
         ActualizarTurno();
     }
 
+    private void ConfigurarEstiloTextosHabilidades()
+    {
+        ConfigurarEstiloTextoHabilidades(textoHabilidadesP1);
+        ConfigurarEstiloTextoHabilidades(textoHabilidadesP2);
+    }
+
+    private void ConfigurarEstiloTextoHabilidades(Text texto)
+    {
+        if (texto == null)
+        {
+            return;
+        }
+
+        texto.alignment = alineacionHabilidades;
+        texto.lineSpacing = espaciadoLineasHabilidades;
+        texto.horizontalOverflow = HorizontalWrapMode.Overflow;
+        texto.verticalOverflow = VerticalWrapMode.Overflow;
+    }
     private void ConfigurarTextosHabilidades()
     {
         if (textoHabilidadesP1 != null && gestorCombate != null && gestorCombate.luchadorP1 != null)
