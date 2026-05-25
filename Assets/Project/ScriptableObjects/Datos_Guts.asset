@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5632392af3d7427a81edd577a1624748, type: 3}
+  m_Name: Datos_Guts
+  m_EditorClassIdentifier: Assembly-CSharp::DatosPersonaje
+  nombrePersonaje: Guts
+  prefabPersonaje: {fileID: 7103000000000000001, guid: 0d9b7227232941d48b5ac0f1a7d1c103, type: 3}
+  iconoSelector: {fileID: 21300000, guid: 1fd54f43ab3417a4d84b80d2bb3f5b27, type: 3}
+  audioSeleccion: {fileID: 8300000, guid: 296da0ce5f0f0f84dbb893d60edbf633, type: 3}
+  vidaMaxima: 100
+  danoBasico: 10
+  danoEspecial: 20
+  danoUlti: 50
+  nombreBasico: Paso basico
+  nombreEspecial: Paso fuerte
+  nombreDefensa: Defensa
+  nombreUlti: Ulti
+  estadoIdle: guts_idle
+  estadoBasico: guts_basico
+  estadoEspecial: guts_especial
+  estadoDefensa: guts_bloqueo
+  estadoUlti: guts_ulti
