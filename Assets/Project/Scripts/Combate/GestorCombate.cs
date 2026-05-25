@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GestorCombate : MonoBehaviour
 {
@@ -21,6 +22,7 @@ public class GestorCombate : MonoBehaviour
 
     [Header("Estado")]
     public EstadoJuego estadoActual;
+    public string escenaVictoria = "Victoria";
 
     [Header("Dano por defecto")]
     public float danoBasico = 10f;
@@ -466,7 +468,14 @@ public class GestorCombate : MonoBehaviour
     private void TerminarCombate(int jugadorGanador)
     {
         estadoActual = EstadoJuego.FIN_COMBATE;
+        DatosPersonaje[] equipoGanador = jugadorGanador == 1 ? equipoP1 : equipoP2;
+        DatosSeleccionCombate.GuardarEquipoCampeon(equipoGanador, jugadorGanador);
         Debug.Log("Jugador " + jugadorGanador + " gana.");
+
+        if (!string.IsNullOrEmpty(escenaVictoria))
+        {
+            SceneManager.LoadScene(escenaVictoria);
+        }
     }
 
     private Luchador ObtenerAtacante()
