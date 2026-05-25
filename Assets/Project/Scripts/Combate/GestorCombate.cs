@@ -4,6 +4,7 @@ using UnityEngine;
 public class GestorCombate : MonoBehaviour
 {
     public enum EstadoJuego { TURNO_P1, TURNO_P2, FIN_COMBATE }
+    private enum TipoAtaque { Basico, Especial, Ulti }
 
     [Header("Luchadores activos")]
     public Luchador luchadorP1;
@@ -35,7 +36,9 @@ public class GestorCombate : MonoBehaviour
     public float costeEnergiaEspecial = 25f;
 
     [Header("Defensa")]
-    public float multiplicadorDefensa = 0.5f;
+    public float multiplicadorDefensaBasico = 0.5f;
+    public float multiplicadorDefensaEspecial = 0.4f;
+    public float multiplicadorDefensaUlti = 0.25f;
 
     public float energiaP1;
     public float energiaP2;
@@ -162,9 +165,10 @@ public class GestorCombate : MonoBehaviour
             yield break;
         }
 
+        QuitarDefensaAtacante();
         yield return atacante.ReproducirBasico();
 
-        AplicarAtaque(atacante, ObtenerDefensor(), ObtenerDanoBasico(atacante));
+        AplicarAtaque(atacante, ObtenerDefensor(), ObtenerDanoBasico(atacante), TipoAtaque.Basico, true);
     }
 
     private IEnumerator EjecutarEspecial()
@@ -178,10 +182,11 @@ public class GestorCombate : MonoBehaviour
             yield break;
         }
 
+        QuitarDefensaAtacante();
         CambiarEnergiaAtacante(-costeEnergiaEspecial);
         yield return atacante.ReproducirEspecial();
 
-        AplicarAtaque(atacante, ObtenerDefensor(), ObtenerDanoEspecial(atacante));
+        AplicarAtaque(atacante, ObtenerDefensor(), ObtenerDanoEspecial(atacante), TipoAtaque.Especial, false);
     }
 
     private IEnumerator EjecutarUlti()
@@ -195,10 +200,11 @@ public class GestorCombate : MonoBehaviour
             yield break;
         }
 
+        QuitarDefensaAtacante();
         CambiarEnergiaAtacante(-energiaMaxima);
         yield return atacante.ReproducirUlti();
 
-        AplicarAtaque(atacante, ObtenerDefensor(), ObtenerDanoUlti(atacante));
+        AplicarAtaque(atacante, ObtenerDefensor(), ObtenerDanoUlti(atacante), TipoAtaque.Ulti, true);
     }
 
     private IEnumerator EjecutarDefensa()
@@ -223,13 +229,13 @@ public class GestorCombate : MonoBehaviour
             Debug.Log("Jugador 2 usa pose defensiva.");
         }
 
-        yield return luchadorActual.ReproducirDefensa();
+        luchadorActual.ReproducirDefensa();
 
-        FinalizarTurno();
+        FinalizarTurnoSinEnergia();
         accionEnCurso = false;
     }
 
-    private void AplicarAtaque(Luchador atacante, Luchador defensor, float dano)
+    private void AplicarAtaque(Luchador atacante, Luchador defensor, float dano, TipoAtaque tipoAtaque, bool darEnergiaAtacante)
     {
         if (atacante == null || defensor == null)
         {
@@ -238,15 +244,29 @@ public class GestorCombate : MonoBehaviour
         }
 
         float danoFinal = dano;
+        bool defensorEstabaDefendiendo = DefensorEstaDefendiendo();
 
-        if (DefensorEstaDefendiendo())
+        if (defensorEstabaDefendiendo)
         {
-            danoFinal *= multiplicadorDefensa;
-            QuitarDefensaDefensor();
+            danoFinal *= ObtenerMultiplicadorDefensa(tipoAtaque);
         }
 
         defensor.RecibirDano(danoFinal);
-        CambiarEnergiaAtacante(energiaPorAtacar);
+
+        if (defensorEstabaDefendiendo)
+        {
+            QuitarDefensaDefensor();
+
+            if (defensor.vidaActual > 0f)
+            {
+                defensor.VolverAIdle();
+            }
+        }
+        if (darEnergiaAtacante)
+        {
+            CambiarEnergiaAtacante(energiaPorAtacar);
+        }
+
         CambiarEnergiaDefensor(energiaPorRecibirDano);
 
         Debug.Log(atacante.nombrePersonaje + " hace " + danoFinal + " de dano a " + defensor.nombrePersonaje + ".");
@@ -418,7 +438,16 @@ public class GestorCombate : MonoBehaviour
     private void FinalizarTurno()
     {
         CambiarEnergiaAtacante(energiaPorTurno);
+        CambiarTurno();
+    }
 
+    private void FinalizarTurnoSinEnergia()
+    {
+        CambiarTurno();
+    }
+
+    private void CambiarTurno()
+    {
         if (estadoActual == EstadoJuego.TURNO_P1)
         {
             estadoActual = EstadoJuego.TURNO_P2;
@@ -484,6 +513,32 @@ public class GestorCombate : MonoBehaviour
         return estadoActual == EstadoJuego.TURNO_P1 ? defensaP2 : defensaP1;
     }
 
+    private float ObtenerMultiplicadorDefensa(TipoAtaque tipoAtaque)
+    {
+        if (tipoAtaque == TipoAtaque.Especial)
+        {
+            return multiplicadorDefensaEspecial;
+        }
+
+        if (tipoAtaque == TipoAtaque.Ulti)
+        {
+            return multiplicadorDefensaUlti;
+        }
+
+        return multiplicadorDefensaBasico;
+    }
+
+    private void QuitarDefensaAtacante()
+    {
+        if (estadoActual == EstadoJuego.TURNO_P1)
+        {
+            defensaP1 = false;
+        }
+        else
+        {
+            defensaP2 = false;
+        }
+    }
     private void QuitarDefensaDefensor()
     {
         if (estadoActual == EstadoJuego.TURNO_P1)

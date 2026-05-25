@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -13,6 +14,9 @@ public class SeleccionPersonajes : MonoBehaviour
     [Header("UI")]
     public Text textoEstado;
     public RectTransform marcoSeleccion;
+    public Button botonComenzar;
+    public Image panelTransicion;
+    public float duracionTransicion = 0.8f;
     public Image[] slotsP1;
     public Image[] slotsP2;
     public BotonPersonaje[] botonesPersonaje;
@@ -28,10 +32,14 @@ public class SeleccionPersonajes : MonoBehaviour
     private readonly List<DatosPersonaje> equipoP2 = new List<DatosPersonaje>();
     private int jugadorActual = 1;
     private int ultimoFrameSeleccion = -1;
+    private bool seleccionCompleta;
+    private bool cargandoCombate;
 
     void Start()
     {
         LimpiarSlots();
+        PrepararBotonComenzar();
+        PrepararPanelTransicion();
         ActualizarTextoEstado();
         ActualizarBotones();
         SeleccionarPrimerBotonDisponible();
@@ -87,8 +95,7 @@ public class SeleccionPersonajes : MonoBehaviour
 
         if (equipoP1.Count >= personajesPorEquipo && equipoP2.Count >= personajesPorEquipo)
         {
-            DatosSeleccionCombate.GuardarEquipos(equipoP1.ToArray(), equipoP2.ToArray());
-            SceneManager.LoadScene(escenaCombate);
+            CompletarSeleccion();
             return;
         }
 
@@ -100,16 +107,34 @@ public class SeleccionPersonajes : MonoBehaviour
         equipoP1.Clear();
         equipoP2.Clear();
         jugadorActual = 1;
+        seleccionCompleta = false;
+        cargandoCombate = false;
         DatosSeleccionCombate.Limpiar();
         LimpiarSlots();
         ActualizarTextoEstado();
         ActualizarBotones();
+        if (botonComenzar != null)
+        {
+            botonComenzar.interactable = false;
+        }
         SeleccionarPrimerBotonDisponible();
+    }
+
+    public void ComenzarPartida()
+    {
+        if (!seleccionCompleta || cargandoCombate)
+        {
+            return;
+        }
+
+        cargandoCombate = true;
+        DatosSeleccionCombate.GuardarEquipos(equipoP1.ToArray(), equipoP2.ToArray());
+        StartCoroutine(CargarCombateConTransicion());
     }
 
     public bool PuedeSeleccionar(DatosPersonaje datosPersonaje)
     {
-        if (datosPersonaje == null)
+        if (datosPersonaje == null || seleccionCompleta)
         {
             return false;
         }
@@ -148,6 +173,91 @@ public class SeleccionPersonajes : MonoBehaviour
         }
     }
 
+    private void PrepararBotonComenzar()
+    {
+        if (botonComenzar == null)
+        {
+            GameObject objetoBoton = GameObject.Find("BotonComenzar");
+            if (objetoBoton != null)
+            {
+                botonComenzar = objetoBoton.GetComponent<Button>();
+            }
+        }
+
+        if (botonComenzar != null)
+        {
+            botonComenzar.interactable = false;
+            botonComenzar.onClick.RemoveListener(ComenzarPartida);
+            botonComenzar.onClick.AddListener(ComenzarPartida);
+        }
+    }
+
+    private void PrepararPanelTransicion()
+    {
+        if (panelTransicion == null)
+        {
+            return;
+        }
+
+        panelTransicion.color = new Color(0f, 0f, 0f, 0f);
+        panelTransicion.raycastTarget = true;
+        panelTransicion.gameObject.SetActive(false);
+    }
+
+    private void CompletarSeleccion()
+    {
+        seleccionCompleta = true;
+        DatosSeleccionCombate.GuardarEquipos(equipoP1.ToArray(), equipoP2.ToArray());
+        ActualizarTextoEstado();
+        ActualizarBotones();
+
+        if (marcoSeleccion != null)
+        {
+            marcoSeleccion.gameObject.SetActive(false);
+        }
+
+        if (botonComenzar != null)
+        {
+            botonComenzar.interactable = true;
+            if (EventSystem.current != null)
+            {
+                EventSystem.current.SetSelectedGameObject(botonComenzar.gameObject);
+            }
+        }
+    }
+
+    private IEnumerator CargarCombateConTransicion()
+    {
+        if (botonComenzar != null)
+        {
+            botonComenzar.interactable = false;
+        }
+
+        Image panel = panelTransicion;
+        if (panel != null)
+        {
+            panel.gameObject.SetActive(true);
+            panel.transform.SetAsLastSibling();
+
+            float tiempo = 0f;
+            while (tiempo < duracionTransicion && panel != null)
+            {
+                tiempo += Time.unscaledDeltaTime;
+                float alpha = Mathf.Clamp01(tiempo / duracionTransicion);
+                panel.color = new Color(0f, 0f, 0f, alpha);
+                yield return null;
+            }
+        }
+        else
+        {
+            yield return new WaitForSeconds(0.2f);
+        }
+
+        if (this != null)
+        {
+            SceneManager.LoadScene(escenaCombate);
+        }
+    }
     private void ActualizarTextoEstado()
     {
         if (textoEstado == null)
@@ -155,9 +265,9 @@ public class SeleccionPersonajes : MonoBehaviour
             return;
         }
 
-        if (equipoP1.Count >= personajesPorEquipo && equipoP2.Count >= personajesPorEquipo)
+        if (seleccionCompleta)
         {
-            textoEstado.text = "Cargando combate...";
+            textoEstado.text = "Equipos listos. Pulsa comenzar";
             return;
         }
 

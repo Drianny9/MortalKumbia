@@ -109,9 +109,22 @@ public class Luchador : MonoBehaviour
         yield return ReproducirAccion(ObtenerEstadoEspecial());
     }
 
-    public IEnumerator ReproducirDefensa()
+    public void ReproducirDefensa()
     {
-        yield return ReproducirAccion(ObtenerEstadoDefensa());
+        if (animadorLuchador == null)
+        {
+            return;
+        }
+
+        animadorLuchador.MantenerEstado(ObtenerEstadoDefensa());
+    }
+
+    public void VolverAIdle()
+    {
+        if (animadorLuchador != null)
+        {
+            animadorLuchador.VolverAIdle();
+        }
     }
 
     public IEnumerator ReproducirUlti()

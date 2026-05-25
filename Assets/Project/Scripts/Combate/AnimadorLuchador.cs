@@ -45,6 +45,24 @@ public class AnimadorLuchador : MonoBehaviour
         ReproducirEstado(estadoIdle);
     }
 
+    public void MantenerEstado(string estado)
+    {
+        posicionBloqueada = transform.position;
+        bloquearPosicion = true;
+        ReproducirEstado(estado);
+    }
+
+    public void VolverAIdle()
+    {
+        if (bloquearPosicion)
+        {
+            transform.position = posicionBloqueada;
+        }
+
+        bloquearPosicion = false;
+        ReproducirIdle();
+    }
+
     public IEnumerator ReproducirAccion(string estadoAccion)
     {
         posicionBloqueada = transform.position;
@@ -67,9 +85,7 @@ public class AnimadorLuchador : MonoBehaviour
             }
         }
 
-        bloquearPosicion = false;
-        transform.position = posicionBloqueada;
-        ReproducirIdle();
+        VolverAIdle();
     }
 
     private void ReproducirEstado(string nombreEstado)
