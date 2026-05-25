@@ -17,6 +17,13 @@ public class SeleccionPersonajes : MonoBehaviour
     public Image[] slotsP2;
     public BotonPersonaje[] botonesPersonaje;
 
+    [Header("Audio")]
+    public AudioSource audioSource;
+    public AudioClip sonidoDesplazar;
+    public AudioClip sonidoSeleccion;
+    private BotonPersonaje botonConFoco;
+    private bool puedeSonarDesplazamiento;
+
     private readonly List<DatosPersonaje> equipoP1 = new List<DatosPersonaje>();
     private readonly List<DatosPersonaje> equipoP2 = new List<DatosPersonaje>();
     private int jugadorActual = 1;
@@ -28,6 +35,7 @@ public class SeleccionPersonajes : MonoBehaviour
         ActualizarTextoEstado();
         ActualizarBotones();
         SeleccionarPrimerBotonDisponible();
+        puedeSonarDesplazamiento = true;
     }
 
     void Update()
@@ -50,6 +58,13 @@ public class SeleccionPersonajes : MonoBehaviour
             ActualizarTextoEstado();
             ActualizarBotones();
             return;
+        }
+
+        ReproducirSonido(sonidoSeleccion);
+
+        if (datosPersonaje.audioSeleccion != null)
+        {
+            ReproducirSonido(datosPersonaje.audioSeleccion);
         }
 
         if (jugadorActual == 1)
@@ -121,6 +136,16 @@ public class SeleccionPersonajes : MonoBehaviour
         marcoSeleccion.sizeDelta = botonRect.sizeDelta + new Vector2(4f, 4f);
         marcoSeleccion.SetAsLastSibling();
         ActualizarColorMarco();
+
+        if (botonConFoco != botonPersonaje)
+        {
+            botonConFoco = botonPersonaje;
+            
+            if (puedeSonarDesplazamiento)
+            {
+                ReproducirSonido(sonidoDesplazar);
+            }
+        }
     }
 
     private void ActualizarTextoEstado()
@@ -261,6 +286,14 @@ public class SeleccionPersonajes : MonoBehaviour
         if (bordeMarco != null)
         {
             bordeMarco.effectColor = colorJugador;
+        }
+    }
+
+    private void ReproducirSonido(AudioClip clip)
+    {
+        if (audioSource != null && clip != null)
+        {
+            audioSource.PlayOneShot(clip);
         }
     }
 

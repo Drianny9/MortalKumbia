@@ -15,6 +15,7 @@ MonoBehaviour:
   nombrePersonaje: Guts
   prefabPersonaje: {fileID: 7103000000000000001, guid: 0d9b7227232941d48b5ac0f1a7d1c103, type: 3}
   iconoSelector: {fileID: 21300000, guid: 1fd54f43ab3417a4d84b80d2bb3f5b27, type: 3}
+  audioSeleccion: {fileID: 8300000, guid: 296da0ce5f0f0f84dbb893d60edbf633, type: 3}
   vidaMaxima: 100
   danoBasico: 10
   danoEspecial: 20

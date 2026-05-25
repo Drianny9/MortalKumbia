@@ -15,6 +15,7 @@ MonoBehaviour:
   nombrePersonaje: Jotaro
   prefabPersonaje: {fileID: 1079473266623004142, guid: 00f318b7f91681b4181bc9a69ffc3c5f, type: 3}
   iconoSelector: {fileID: 21300000, guid: c69606962f2b41c42bbaec466458f0cb, type: 3}
+  audioSeleccion: {fileID: 8300000, guid: 6dd42b9e778691140a3d3d978cfc545e, type: 3}
   vidaMaxima: 100
   danoBasico: 10
   danoEspecial: 20

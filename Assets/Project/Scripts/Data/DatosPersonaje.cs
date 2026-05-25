@@ -11,6 +11,9 @@ public class DatosPersonaje : ScriptableObject
     public GameObject prefabPersonaje;
     public Sprite iconoSelector;
 
+    [Header("Audio")]
+    public AudioClip audioSeleccion;
+
     [Header("Estadisticas")]
     public float vidaMaxima = 100f;
     public float danoBasico = 10f;

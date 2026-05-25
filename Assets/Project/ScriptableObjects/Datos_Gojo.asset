@@ -15,6 +15,7 @@ MonoBehaviour:
   nombrePersonaje: Gojo
   prefabPersonaje: {fileID: 7102000000000000001, guid: 0d9b7227232941d48b5ac0f1a7d1c102, type: 3}
   iconoSelector: {fileID: 5384357724569688987, guid: 2735c5e1e6270ec40a1b73eaa8ff3d02, type: 3}
+  audioSeleccion: {fileID: 8300000, guid: bc1873da8c551a7428a671d2e8b2e065, type: 3}
   vidaMaxima: 100
   danoBasico: 10
   danoEspecial: 20
