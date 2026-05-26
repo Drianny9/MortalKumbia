@@ -5,6 +5,8 @@ public static class DatosSeleccionCombate
 
     public static DatosPersonaje[] equipoP1;
     public static DatosPersonaje[] equipoP2;
+    public static DatosPersonaje[] equipoCampeon;
+    public static int jugadorGanador;
 
     public static bool HaySeleccionCompleta
     {
@@ -20,10 +22,18 @@ public static class DatosSeleccionCombate
         equipoP2 = CopiarEquipo(nuevoEquipoP2);
     }
 
+    public static void GuardarEquipoCampeon(DatosPersonaje[] nuevoEquipoCampeon, int nuevoJugadorGanador)
+    {
+        equipoCampeon = CopiarEquipo(nuevoEquipoCampeon);
+        jugadorGanador = nuevoJugadorGanador;
+    }
+
     public static void Limpiar()
     {
         equipoP1 = null;
         equipoP2 = null;
+        equipoCampeon = null;
+        jugadorGanador = 0;
     }
 
     private static DatosPersonaje[] CopiarEquipo(DatosPersonaje[] equipo)

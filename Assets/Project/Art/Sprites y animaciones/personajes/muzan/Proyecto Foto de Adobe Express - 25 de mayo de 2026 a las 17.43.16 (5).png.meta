@@ -1,0 +1,390 @@
+fileFormatVersion: 2
+guid: 485ee59672cf972449eb9f092e08cdfe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2623720207669181417
+    second: Proyecto Foto de Adobe Express - 25 de mayo de 2026 a las 17.43.16 (5)_0
+  - first:
+      213: 4658863564481438968
+    second: Proyecto Foto de Adobe Express - 25 de mayo de 2026 a las 17.43.16 (5)_1
+  - first:
+      213: 7359479513637060580
+    second: Proyecto Foto de Adobe Express - 25 de mayo de 2026 a las 17.43.16 (5)_2
+  - first:
+      213: -7296825064397206784
+    second: Proyecto Foto de Adobe Express - 25 de mayo de 2026 a las 17.43.16 (5)_3
+  - first:
+      213: 582504238889526273
+    second: Proyecto Foto de Adobe Express - 25 de mayo de 2026 a las 17.43.16 (5)_4
+  - first:
+      213: 561658790730128650
+    second: Proyecto Foto de Adobe Express - 25 de mayo de 2026 a las 17.43.16 (5)_5
+  - first:
+      213: 3246940517510790520
+    second: Proyecto Foto de Adobe Express - 25 de mayo de 2026 a las 17.43.16 (5)_6
+  - first:
+      213: 139768589035608939
+    second: Proyecto Foto de Adobe Express - 25 de mayo de 2026 a las 17.43.16 (5)_7
+  - first:
+      213: 4634928644564885649
+    second: Proyecto Foto de Adobe Express - 25 de mayo de 2026 a las 17.43.16 (5)_8
+  - first:
+      213: 7414670833312083256
+    second: Proyecto Foto de Adobe Express - 25 de mayo de 2026 a las 17.43.16 (5)_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Proyecto Foto de Adobe Express - 25 de mayo de 2026 a las 17.43.16 (5)_0
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 286
+        width: 144
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ebb228b0a3596420800000000000000
+      internalID: 2623720207669181417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Proyecto Foto de Adobe Express - 25 de mayo de 2026 a las 17.43.16 (5)_1
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 285
+        width: 99
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f42de96abb97a040800000000000000
+      internalID: 4658863564481438968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Proyecto Foto de Adobe Express - 25 de mayo de 2026 a las 17.43.16 (5)_2
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 374
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eff91e10af122660800000000000000
+      internalID: 7359479513637060580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Proyecto Foto de Adobe Express - 25 de mayo de 2026 a las 17.43.16 (5)_3
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 285
+        width: 88
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00b0070a3487cba90800000000000000
+      internalID: -7296825064397206784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Proyecto Foto de Adobe Express - 25 de mayo de 2026 a las 17.43.16 (5)_4
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 373
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1046b2fd488751800800000000000000
+      internalID: 582504238889526273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Proyecto Foto de Adobe Express - 25 de mayo de 2026 a las 17.43.16 (5)_5
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 362
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0dd172c1b96bc700800000000000000
+      internalID: 561658790730128650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Proyecto Foto de Adobe Express - 25 de mayo de 2026 a las 17.43.16 (5)_6
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 337
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87dbd0992337f0d20800000000000000
+      internalID: 3246940517510790520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Proyecto Foto de Adobe Express - 25 de mayo de 2026 a las 17.43.16 (5)_7
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 323
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6b993c8ace80f100800000000000000
+      internalID: 139768589035608939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Proyecto Foto de Adobe Express - 25 de mayo de 2026 a las 17.43.16 (5)_8
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 303
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 190a29a9b03925040800000000000000
+      internalID: 4634928644564885649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Proyecto Foto de Adobe Express - 25 de mayo de 2026 a las 17.43.16 (5)_9
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 311
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83d240a96d336e660800000000000000
+      internalID: 7414670833312083256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Proyecto Foto de Adobe Express - 25 de mayo de 2026 a las 17.43.16 (5)_0: 2623720207669181417
+      Proyecto Foto de Adobe Express - 25 de mayo de 2026 a las 17.43.16 (5)_1: 4658863564481438968
+      Proyecto Foto de Adobe Express - 25 de mayo de 2026 a las 17.43.16 (5)_2: 7359479513637060580
+      Proyecto Foto de Adobe Express - 25 de mayo de 2026 a las 17.43.16 (5)_3: -7296825064397206784
+      Proyecto Foto de Adobe Express - 25 de mayo de 2026 a las 17.43.16 (5)_4: 582504238889526273
+      Proyecto Foto de Adobe Express - 25 de mayo de 2026 a las 17.43.16 (5)_5: 561658790730128650
+      Proyecto Foto de Adobe Express - 25 de mayo de 2026 a las 17.43.16 (5)_6: 3246940517510790520
+      Proyecto Foto de Adobe Express - 25 de mayo de 2026 a las 17.43.16 (5)_7: 139768589035608939
+      Proyecto Foto de Adobe Express - 25 de mayo de 2026 a las 17.43.16 (5)_8: 4634928644564885649
+      Proyecto Foto de Adobe Express - 25 de mayo de 2026 a las 17.43.16 (5)_9: 7414670833312083256
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

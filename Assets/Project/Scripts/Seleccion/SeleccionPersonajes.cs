@@ -9,7 +9,7 @@ public class SeleccionPersonajes : MonoBehaviour
 {
     [Header("Configuracion")]
     public int personajesPorEquipo = 3;
-    public string escenaCombate = "EscenaCombate";
+    public string escenaCombate = "PantallaCarga";
 
     [Header("UI")]
     public Text textoEstado;
