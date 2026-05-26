@@ -15,6 +15,7 @@ MonoBehaviour:
   nombrePersonaje: Vegeta
   prefabPersonaje: {fileID: 4996061397153232579, guid: 62416ac08519fed4f90208daf40d8158, type: 3}
   iconoSelector: {fileID: 21300000, guid: cf3c33201d32a784db33b3e002c6044c, type: 3}
+  imagenPantallaCarga: {fileID: -8658537274913732953, guid: c1f85e190d5aa64449f0177fbef5b168, type: 3}
   audioSeleccion: {fileID: 8300000, guid: 37bd354f7331b7d4eab34cdb726ce567, type: 3}
   vidaMaxima: 100
   danoBasico: 10

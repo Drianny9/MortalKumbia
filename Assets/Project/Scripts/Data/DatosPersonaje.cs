@@ -10,6 +10,7 @@ public class DatosPersonaje : ScriptableObject
     public string nombrePersonaje = "Personaje";
     public GameObject prefabPersonaje;
     public Sprite iconoSelector;
+    public Sprite imagenPantallaCarga;
 
     [Header("Audio")]
     public AudioClip audioSeleccion;
