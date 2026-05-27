@@ -6,7 +6,11 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<<< HEAD:Assets/Project/Art/Sprites y animaciones/personajes/cj/cj_win.anim
   m_Name: cj_win
+========
+  m_Name: jotaro_bloqueo
+>>>>>>>> 033c59f40d396e0d669d3ab20d33b7081d5436fd:Assets/Project/Art/Sprites y animaciones/personajes/Jotaro Kujo/jotaro_bloqueo.anim
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,9 +25,17 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
+<<<<<<<< HEAD:Assets/Project/Art/Sprites y animaciones/personajes/cj/cj_win.anim
       value: {fileID: 768556733225453836, guid: 2bee0a03bf7d0104c8f89ff88add12bd, type: 3}
     - time: 0.25
       value: {fileID: 2381969412815839753, guid: 2bee0a03bf7d0104c8f89ff88add12bd, type: 3}
+========
+      value: {fileID: -940576368525502648, guid: 1de24b3da0c9e6c4a8c160a3d8d75058, type: 3}
+    - time: 0.25
+      value: {fileID: -7934366972667819341, guid: 1de24b3da0c9e6c4a8c160a3d8d75058, type: 3}
+    - time: 0.5
+      value: {fileID: -7934366972667819341, guid: 1de24b3da0c9e6c4a8c160a3d8d75058, type: 3}
+>>>>>>>> 033c59f40d396e0d669d3ab20d33b7081d5436fd:Assets/Project/Art/Sprites y animaciones/personajes/Jotaro Kujo/jotaro_bloqueo.anim
     attribute: m_Sprite
     path: 
     classID: 212
@@ -46,14 +58,24 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
+<<<<<<<< HEAD:Assets/Project/Art/Sprites y animaciones/personajes/cj/cj_win.anim
     - {fileID: 768556733225453836, guid: 2bee0a03bf7d0104c8f89ff88add12bd, type: 3}
     - {fileID: 2381969412815839753, guid: 2bee0a03bf7d0104c8f89ff88add12bd, type: 3}
+========
+    - {fileID: -940576368525502648, guid: 1de24b3da0c9e6c4a8c160a3d8d75058, type: 3}
+    - {fileID: -7934366972667819341, guid: 1de24b3da0c9e6c4a8c160a3d8d75058, type: 3}
+    - {fileID: -7934366972667819341, guid: 1de24b3da0c9e6c4a8c160a3d8d75058, type: 3}
+>>>>>>>> 033c59f40d396e0d669d3ab20d33b7081d5436fd:Assets/Project/Art/Sprites y animaciones/personajes/Jotaro Kujo/jotaro_bloqueo.anim
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
+<<<<<<<< HEAD:Assets/Project/Art/Sprites y animaciones/personajes/cj/cj_win.anim
     m_StopTime: 0.26666668
+========
+    m_StopTime: 0.51666665
+>>>>>>>> 033c59f40d396e0d669d3ab20d33b7081d5436fd:Assets/Project/Art/Sprites y animaciones/personajes/Jotaro Kujo/jotaro_bloqueo.anim
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0

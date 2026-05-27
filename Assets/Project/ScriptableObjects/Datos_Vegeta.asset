@@ -16,21 +16,34 @@ MonoBehaviour:
   prefabPersonaje: {fileID: 4996061397153232579, guid: 62416ac08519fed4f90208daf40d8158, type: 3}
   iconoSelector: {fileID: 21300000, guid: cf3c33201d32a784db33b3e002c6044c, type: 3}
   imagenPantallaCarga: {fileID: -8658537274913732953, guid: c1f85e190d5aa64449f0177fbef5b168, type: 3}
+<<<<<<< HEAD
   spriteMuerto: {fileID: 668331820661043106, guid: d2d54348ef45ad34a9bcc4e72a9f2d52, type: 3}
   offsetSpriteMuerto: {x: 0, y: -1.5, z: 0}
   spriteDano: {fileID: 1249380526486010836, guid: 8aeec0f64ab0a7f408c5bc352c7de6e0, type: 3}
+=======
+>>>>>>> 033c59f40d396e0d669d3ab20d33b7081d5436fd
   audioSeleccion: {fileID: 8300000, guid: 37bd354f7331b7d4eab34cdb726ce567, type: 3}
   vidaMaxima: 100
   danoBasico: 10
   danoEspecial: 20
   danoUlti: 50
+<<<<<<< HEAD
   nombreBasico: Golpe Ki
   nombreEspecial: Big Bang
   nombreDefensa: Defensa
   nombreUlti: Final flash
+=======
+  nombreBasico: Paso basico
+  nombreEspecial: Paso fuerte
+  nombreDefensa: Defensa
+  nombreUlti: Ulti
+>>>>>>> 033c59f40d396e0d669d3ab20d33b7081d5436fd
   estadoIdle: vegeta_idle
   estadoBasico: vegeta_basico
   estadoEspecial: vegeta_especial
   estadoDefensa: vegeta_bloqueo
   estadoUlti: vegeta_ulti
+<<<<<<< HEAD
   estadoWin: vegeta_win
+=======
+>>>>>>> 033c59f40d396e0d669d3ab20d33b7081d5436fd

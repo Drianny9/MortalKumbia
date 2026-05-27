@@ -266,7 +266,10 @@ GameObject:
   m_Component:
   - component: {fileID: 200001}
   - component: {fileID: 200002}
+<<<<<<< HEAD
   - component: {fileID: 200003}
+=======
+>>>>>>> 033c59f40d396e0d669d3ab20d33b7081d5436fd
   m_Layer: 0
   m_Name: GestorVictoria
   m_TagString: Untagged
@@ -306,6 +309,7 @@ MonoBehaviour:
   - {fileID: 300101}
   - {fileID: 300201}
   invertirPersonajes: 0
+<<<<<<< HEAD
   imagenVictoria: {fileID: 0}
   victoriaJugador1: {fileID: -2432368356284470041, guid: 63dbaa9d178701647be69e9ddda6c0f2, type: 3}
   victoriaJugador2: {fileID: 5390738005464571992, guid: 1c81c854ea93848428517ba5c53698b2, type: 3}
@@ -411,6 +415,9 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+=======
+  textoGanador: {fileID: 0}
+>>>>>>> 033c59f40d396e0d669d3ab20d33b7081d5436fd
 --- !u!1 &300000
 GameObject:
   m_ObjectHideFlags: 0
@@ -437,8 +444,13 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -3, y: -1, z: 0}
+<<<<<<< HEAD
   m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
   m_ConstrainProportionsScale: 1
+=======
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+>>>>>>> 033c59f40d396e0d669d3ab20d33b7081d5436fd
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -468,8 +480,13 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -1, z: 0}
+<<<<<<< HEAD
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 1
+=======
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+>>>>>>> 033c59f40d396e0d669d3ab20d33b7081d5436fd
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -499,8 +516,13 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3, y: -1, z: 0}
+<<<<<<< HEAD
   m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
   m_ConstrainProportionsScale: 1
+=======
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+>>>>>>> 033c59f40d396e0d669d3ab20d33b7081d5436fd
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -583,6 +605,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &285933757
 GameObject:
   m_ObjectHideFlags: 0
@@ -630,6 +653,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> 033c59f40d396e0d669d3ab20d33b7081d5436fd
 --- !u!1 &305970687
 GameObject:
   m_ObjectHideFlags: 0
@@ -642,7 +667,10 @@ GameObject:
   - component: {fileID: 305970691}
   - component: {fileID: 305970690}
   - component: {fileID: 305970689}
+<<<<<<< HEAD
   - component: {fileID: 305970692}
+=======
+>>>>>>> 033c59f40d396e0d669d3ab20d33b7081d5436fd
   m_Layer: 5
   m_Name: victory_background
   m_TagString: Untagged
@@ -664,10 +692,17 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 2047509110}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
+=======
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.00030518, y: 0.000076294}
+  m_SizeDelta: {x: 1101, y: 506}
+>>>>>>> 033c59f40d396e0d669d3ab20d33b7081d5436fd
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!82 &305970689
 AudioSource:
@@ -786,7 +821,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< HEAD
   m_Sprite: {fileID: 907859880396384971, guid: 3ee85f3b88c1d154dbbed531154254ad, type: 3}
+=======
+  m_Sprite: {fileID: 8783262004301657968, guid: 7ba953efa1e90e642af45dc89b817981, type: 3}
+>>>>>>> 033c59f40d396e0d669d3ab20d33b7081d5436fd
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -804,6 +843,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 305970687}
   m_CullTransparentMesh: 1
+<<<<<<< HEAD
 --- !u!82 &305970692
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1311,6 +1351,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 961282984}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> 033c59f40d396e0d669d3ab20d33b7081d5436fd
 --- !u!1 &2047509106
 GameObject:
   m_ObjectHideFlags: 0
@@ -1359,12 +1401,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
+<<<<<<< HEAD
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0.5
+=======
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+>>>>>>> 033c59f40d396e0d669d3ab20d33b7081d5436fd
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -1389,7 +1440,11 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
   m_UseReflectionProbes: 0
+<<<<<<< HEAD
   m_AdditionalShaderChannelsFlag: 25
+=======
+  m_AdditionalShaderChannelsFlag: 0
+>>>>>>> 033c59f40d396e0d669d3ab20d33b7081d5436fd
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -1407,8 +1462,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 305970688}
+<<<<<<< HEAD
   - {fileID: 677272726}
   - {fileID: 588823103}
+=======
+>>>>>>> 033c59f40d396e0d669d3ab20d33b7081d5436fd
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1427,4 +1485,7 @@ SceneRoots:
   - {fileID: 300201}
   - {fileID: 2047509110}
   - {fileID: 10798140}
+<<<<<<< HEAD
   - {fileID: 285933759}
+=======
+>>>>>>> 033c59f40d396e0d669d3ab20d33b7081d5436fd

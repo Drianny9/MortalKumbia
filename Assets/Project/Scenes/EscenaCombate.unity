@@ -293,6 +293,7 @@ MonoBehaviour:
   multiplicadorDefensaBasico: 0.5
   multiplicadorDefensaEspecial: 0.4
   multiplicadorDefensaUlti: 0.25
+<<<<<<< HEAD
   audioSourceCombate: {fileID: 360418317}
   gritosAtaqueP1:
   - {fileID: 8300000, guid: ffe6d053ea25c7c44ab0f7d1969ba2a4, type: 3}
@@ -343,6 +344,8 @@ MonoBehaviour:
   tiempoMostrarMuerto: 1.2
   animacionFinish: {fileID: 932971206}
   esperaAntesVictoria: 3
+=======
+>>>>>>> 033c59f40d396e0d669d3ab20d33b7081d5436fd
   energiaP1: 0
   energiaP2: 0
 --- !u!4 &360418316
@@ -360,6 +363,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!82 &360418317
 AudioSource:
   m_ObjectHideFlags: 0
@@ -457,6 +461,8 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+=======
+>>>>>>> 033c59f40d396e0d669d3ab20d33b7081d5436fd
 --- !u!1 &363695879
 GameObject:
   m_ObjectHideFlags: 0
@@ -592,9 +598,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 426259598}
   serializedVersion: 2
+<<<<<<< HEAD
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 3.4999998, y: -1, z: 0}
   m_LocalScale: {x: 2.4999998, y: 2.4999998, z: 1}
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.5, y: -2, z: 0}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
+>>>>>>> 033c59f40d396e0d669d3ab20d33b7081d5436fd
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2676,7 +2688,10 @@ RectTransform:
   - {fileID: 1686143997}
   - {fileID: 1424612458}
   - {fileID: 1796316221}
+<<<<<<< HEAD
   - {fileID: 932971207}
+=======
+>>>>>>> 033c59f40d396e0d669d3ab20d33b7081d5436fd
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -2730,9 +2745,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1739034644}
   serializedVersion: 2
+<<<<<<< HEAD
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -3.4999998, y: -1, z: 0}
   m_LocalScale: {x: 2.4999998, y: 2.4999998, z: 1}
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.5, y: -2, z: 0}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
+>>>>>>> 033c59f40d396e0d669d3ab20d33b7081d5436fd
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}

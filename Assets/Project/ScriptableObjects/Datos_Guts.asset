@@ -16,21 +16,34 @@ MonoBehaviour:
   prefabPersonaje: {fileID: 7103000000000000001, guid: 0d9b7227232941d48b5ac0f1a7d1c103, type: 3}
   iconoSelector: {fileID: 21300000, guid: 1fd54f43ab3417a4d84b80d2bb3f5b27, type: 3}
   imagenPantallaCarga: {fileID: -5343176394619711507, guid: c8c4566f7b3fed0438ece9773f672618, type: 3}
+<<<<<<< HEAD
   spriteMuerto: {fileID: 5946858968041244353, guid: d2d54348ef45ad34a9bcc4e72a9f2d52, type: 3}
   offsetSpriteMuerto: {x: 0, y: -1.5, z: 0}
   spriteDano: {fileID: 6329286659225301626, guid: 8aeec0f64ab0a7f408c5bc352c7de6e0, type: 3}
+=======
+>>>>>>> 033c59f40d396e0d669d3ab20d33b7081d5436fd
   audioSeleccion: {fileID: 8300000, guid: 296da0ce5f0f0f84dbb893d60edbf633, type: 3}
   vidaMaxima: 100
   danoBasico: 10
   danoEspecial: 20
   danoUlti: 50
+<<<<<<< HEAD
   nombreBasico: Corte duro
   nombreEspecial: Berserk
   nombreDefensa: Defensa
   nombreUlti: Eclipse
+=======
+  nombreBasico: Paso basico
+  nombreEspecial: Paso fuerte
+  nombreDefensa: Defensa
+  nombreUlti: Ulti
+>>>>>>> 033c59f40d396e0d669d3ab20d33b7081d5436fd
   estadoIdle: guts_idle
   estadoBasico: guts_basico
   estadoEspecial: guts_especial
   estadoDefensa: guts_bloqueo
   estadoUlti: guts_ulti
+<<<<<<< HEAD
   estadoWin: guts_win
+=======
+>>>>>>> 033c59f40d396e0d669d3ab20d33b7081d5436fd

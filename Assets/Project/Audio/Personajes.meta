@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Project/Audio/Personajes.meta
 guid: e2962a3c490aaf541883fe056697b412
+========
+guid: 8d24bc8000a2c4c49887da7380aabc5f
+>>>>>>>> 033c59f40d396e0d669d3ab20d33b7081d5436fd:Assets/Project.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

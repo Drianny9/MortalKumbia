@@ -1,5 +1,8 @@
 using UnityEngine;
+<<<<<<< HEAD
 using UnityEngine.SceneManagement;
+=======
+>>>>>>> 033c59f40d396e0d669d3ab20d33b7081d5436fd
 using UnityEngine.UI;
 
 public class MostrarEquipoCampeon : MonoBehaviour
@@ -9,6 +12,7 @@ public class MostrarEquipoCampeon : MonoBehaviour
     public bool invertirPersonajes;
 
     [Header("UI")]
+<<<<<<< HEAD
     public Image imagenVictoria;
     public Sprite victoriaJugador1;
     public Sprite victoriaJugador2;
@@ -111,6 +115,30 @@ public class MostrarEquipoCampeon : MonoBehaviour
         rectTransform.sizeDelta = new Vector2(760f, 300f);
 
         return imagen;
+=======
+    public Text textoGanador;
+
+    void Start()
+    {
+        MostrarTextoGanador();
+        MostrarCampeones();
+    }
+
+    void OnGUI()
+    {
+        if (textoGanador == null && DatosSeleccionCombate.jugadorGanador > 0)
+        {
+            GUI.Label(new Rect(20f, 20f, 300f, 40f), "Jugador " + DatosSeleccionCombate.jugadorGanador + " gana");
+        }
+    }
+
+    private void MostrarTextoGanador()
+    {
+        if (textoGanador != null && DatosSeleccionCombate.jugadorGanador > 0)
+        {
+            textoGanador.text = "Jugador " + DatosSeleccionCombate.jugadorGanador + " gana";
+        }
+>>>>>>> 033c59f40d396e0d669d3ab20d33b7081d5436fd
     }
 
     private void MostrarCampeones()
@@ -166,7 +194,11 @@ public class MostrarEquipoCampeon : MonoBehaviour
         if (luchador != null)
         {
             luchador.Inicializar(datosPersonaje);
+<<<<<<< HEAD
             StartCoroutine(luchador.ReproducirVictoria());
+=======
+            luchador.VolverAIdle();
+>>>>>>> 033c59f40d396e0d669d3ab20d33b7081d5436fd
             return;
         }
 
@@ -174,7 +206,11 @@ public class MostrarEquipoCampeon : MonoBehaviour
         if (animador != null)
         {
             animador.Configurar(datosPersonaje);
+<<<<<<< HEAD
             StartCoroutine(animador.ReproducirVictoria(datosPersonaje.estadoWin));
+=======
+            animador.VolverAIdle();
+>>>>>>> 033c59f40d396e0d669d3ab20d33b7081d5436fd
         }
     }
 

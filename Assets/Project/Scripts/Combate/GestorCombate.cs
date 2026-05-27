@@ -1,7 +1,10 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+<<<<<<< HEAD
 using UnityEngine.UI;
+=======
+>>>>>>> 033c59f40d396e0d669d3ab20d33b7081d5436fd
 
 public class GestorCombate : MonoBehaviour
 {
@@ -42,6 +45,7 @@ public class GestorCombate : MonoBehaviour
     public float multiplicadorDefensaBasico = 0.5f;
     public float multiplicadorDefensaEspecial = 0.4f;
     public float multiplicadorDefensaUlti = 0.25f;
+<<<<<<< HEAD
 
     [Header("Audio voces")]
     public AudioSource audioSourceCombate;
@@ -60,6 +64,8 @@ public class GestorCombate : MonoBehaviour
     [Header("Final combate")]
     public GameObject animacionFinish;
     public float esperaAntesVictoria = 2f;
+=======
+>>>>>>> 033c59f40d396e0d669d3ab20d33b7081d5436fd
 
     public float energiaP1;
     public float energiaP2;
@@ -187,7 +193,10 @@ public class GestorCombate : MonoBehaviour
         }
 
         QuitarDefensaAtacante();
+<<<<<<< HEAD
         ReproducirGritoAtaque(atacante);
+=======
+>>>>>>> 033c59f40d396e0d669d3ab20d33b7081d5436fd
         yield return atacante.ReproducirBasico();
 
         AplicarAtaque(atacante, ObtenerDefensor(), ObtenerDanoBasico(atacante), TipoAtaque.Basico, true);
@@ -276,9 +285,12 @@ public class GestorCombate : MonoBehaviour
         }
 
         defensor.RecibirDano(danoFinal);
+<<<<<<< HEAD
         defensor.MostrarSpriteDano(0.25f);
         ReproducirAudioAleatorio(sonidosImpacto);
         ReproducirGritoGolpe(defensor);
+=======
+>>>>>>> 033c59f40d396e0d669d3ab20d33b7081d5436fd
 
         if (defensorEstabaDefendiendo)
         {
@@ -511,6 +523,7 @@ public class GestorCombate : MonoBehaviour
         DatosSeleccionCombate.GuardarEquipoCampeon(equipoGanador, jugadorGanador);
         Debug.Log("Jugador " + jugadorGanador + " gana.");
 
+<<<<<<< HEAD
         StartCoroutine(TransicionVictoria());
     }
 
@@ -523,6 +536,8 @@ public class GestorCombate : MonoBehaviour
 
         yield return new WaitForSeconds(esperaAntesVictoria);
 
+=======
+>>>>>>> 033c59f40d396e0d669d3ab20d33b7081d5436fd
         if (!string.IsNullOrEmpty(escenaVictoria))
         {
             SceneManager.LoadScene(escenaVictoria);

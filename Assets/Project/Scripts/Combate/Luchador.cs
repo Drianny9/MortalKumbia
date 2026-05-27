@@ -133,6 +133,7 @@ public class Luchador : MonoBehaviour
         {
             animadorLuchador.VolverAIdle();
         }
+<<<<<<< HEAD
     }
 
     public IEnumerator ReproducirVictoria()
@@ -143,6 +144,8 @@ public class Luchador : MonoBehaviour
         }
 
         yield return animadorLuchador.ReproducirVictoria(ObtenerEstadoWin());
+=======
+>>>>>>> 033c59f40d396e0d669d3ab20d33b7081d5436fd
     }
 
     public IEnumerator ReproducirUlti()

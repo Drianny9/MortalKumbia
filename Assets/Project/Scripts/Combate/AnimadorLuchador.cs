@@ -45,6 +45,7 @@ public class AnimadorLuchador : MonoBehaviour
         ReproducirEstado(estadoIdle);
     }
 
+<<<<<<< HEAD
     public IEnumerator ReproducirVictoria(string estadoVictoria)
     {
         if (animator == null || string.IsNullOrEmpty(estadoVictoria))
@@ -88,6 +89,8 @@ public class AnimadorLuchador : MonoBehaviour
         animator.speed = 0f;
     }
 
+=======
+>>>>>>> 033c59f40d396e0d669d3ab20d33b7081d5436fd
     public void MantenerEstado(string estado)
     {
         posicionBloqueada = transform.position;

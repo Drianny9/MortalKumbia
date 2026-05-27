@@ -16,21 +16,34 @@ MonoBehaviour:
   prefabPersonaje: {fileID: 7104000000000000001, guid: 0d9b7227232941d48b5ac0f1a7d1c104, type: 3}
   iconoSelector: {fileID: 21300000, guid: afdfbb6196308014f8d860973259e4f2, type: 3}
   imagenPantallaCarga: {fileID: 7746878154483068924, guid: 88b11360ac159204186b229427cc31f8, type: 3}
+<<<<<<< HEAD
   spriteMuerto: {fileID: 7367160646479562449, guid: d2d54348ef45ad34a9bcc4e72a9f2d52, type: 3}
   offsetSpriteMuerto: {x: 0, y: -1.5, z: 0}
   spriteDano: {fileID: -7152781890776071043, guid: 8aeec0f64ab0a7f408c5bc352c7de6e0, type: 3}
+=======
+>>>>>>> 033c59f40d396e0d669d3ab20d33b7081d5436fd
   audioSeleccion: {fileID: 8300000, guid: 11439c8d6c733bb4195e9d8190cb3756, type: 3}
   vidaMaxima: 100
   danoBasico: 10
   danoEspecial: 20
   danoUlti: 50
+<<<<<<< HEAD
   nombreBasico: Paso oscuro
   nombreEspecial: Danza cruel
   nombreDefensa: Defensa
   nombreUlti: Noche final
+=======
+  nombreBasico: Paso basico
+  nombreEspecial: Paso fuerte
+  nombreDefensa: Defensa
+  nombreUlti: Ulti
+>>>>>>> 033c59f40d396e0d669d3ab20d33b7081d5436fd
   estadoIdle: muzan_idle
   estadoBasico: muzan_basico
   estadoEspecial: muzan_especial
   estadoDefensa: muzan_bloqueo
   estadoUlti: muzan_ulti
+<<<<<<< HEAD
   estadoWin: muzan_win
+=======
+>>>>>>> 033c59f40d396e0d669d3ab20d33b7081d5436fd

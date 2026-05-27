@@ -11,9 +11,12 @@ public class DatosPersonaje : ScriptableObject
     public GameObject prefabPersonaje;
     public Sprite iconoSelector;
     public Sprite imagenPantallaCarga;
+<<<<<<< HEAD
     public Sprite spriteMuerto;
     public Vector3 offsetSpriteMuerto;
     public Sprite spriteDano;
+=======
+>>>>>>> 033c59f40d396e0d669d3ab20d33b7081d5436fd
 
     [Header("Audio")]
     public AudioClip audioSeleccion;
