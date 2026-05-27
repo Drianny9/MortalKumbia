@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5632392af3d7427a81edd577a1624748, type: 3}
+  m_Name: Datos_Gojo
+  m_EditorClassIdentifier: Assembly-CSharp::DatosPersonaje
+  nombrePersonaje: Gojo
+  prefabPersonaje: {fileID: 7102000000000000001, guid: 0d9b7227232941d48b5ac0f1a7d1c102, type: 3}
+  iconoSelector: {fileID: 5384357724569688987, guid: 2735c5e1e6270ec40a1b73eaa8ff3d02, type: 3}
+  imagenPantallaCarga: {fileID: 3566158604391687261, guid: a49d0efef6be98a47978409326d3423f, type: 3}
+  spriteMuerto: {fileID: 5492455313105238803, guid: d2d54348ef45ad34a9bcc4e72a9f2d52, type: 3}
+  offsetSpriteMuerto: {x: 0, y: -1.5, z: 0}
+  spriteDano: {fileID: -6460019800634373457, guid: 8aeec0f64ab0a7f408c5bc352c7de6e0, type: 3}
+  audioSeleccion: {fileID: 8300000, guid: bc1873da8c551a7428a671d2e8b2e065, type: 3}
+  vidaMaxima: 100
+  danoBasico: 10
+  danoEspecial: 20
+  danoUlti: 50
+  nombreBasico: Azul
+  nombreEspecial: Rojo
+  nombreDefensa: Defensa
+  nombreUlti: "P\xFArpura"
+  estadoIdle: gojo_idle
+  estadoBasico: gojo_basico
+  estadoEspecial: gojo_especial
+  estadoDefensa: gojo_proteccion
+  estadoUlti: gojo_ulti
+  estadoWin: gojo_win
